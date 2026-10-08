@@ -1,0 +1,1094 @@
+[
+  {
+    "continent": "기타",
+    "country_of_origin": "기타",
+    "D2_student": 4,
+    "D4_student": 1
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "가이아나",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "과테말라",
+    "D2_student": 16,
+    "D4_student": 4
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "니카라과",
+    "D2_student": 8,
+    "D4_student": 3
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "도미니카공화국",
+    "D2_student": 19,
+    "D4_student": 11
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "도미니카연방",
+    "D2_student": 1,
+    "D4_student": 2
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "멕시코",
+    "D2_student": 289,
+    "D4_student": 120
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "바베이도스",
+    "D2_student": 1,
+    "D4_student": 1
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "바하마",
+    "D2_student": 6,
+    "D4_student": 2
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "베네수엘라",
+    "D2_student": 21,
+    "D4_student": 8
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "벨리즈",
+    "D2_student": 2,
+    "D4_student": 0
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "볼리비아",
+    "D2_student": 25,
+    "D4_student": 4
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "브라질",
+    "D2_student": 170,
+    "D4_student": 104
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "세인트루시아",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "세인트빈센트그레나딘",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "세인트크리스토퍼네비스",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "아르헨티나",
+    "D2_student": 22,
+    "D4_student": 11
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "아이티",
+    "D2_student": 1,
+    "D4_student": 1
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "앤티카바부다",
+    "D2_student": 0,
+    "D4_student": 1
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "에콰도르",
+    "D2_student": 69,
+    "D4_student": 20
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "엘살바도르",
+    "D2_student": 18,
+    "D4_student": 7
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "온두라스",
+    "D2_student": 11,
+    "D4_student": 5
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "우루과이",
+    "D2_student": 7,
+    "D4_student": 1
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "자메이카",
+    "D2_student": 6,
+    "D4_student": 3
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "칠레",
+    "D2_student": 55,
+    "D4_student": 27
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "코스타리카",
+    "D2_student": 11,
+    "D4_student": 10
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "콜롬비아",
+    "D2_student": 104,
+    "D4_student": 71
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "쿠바",
+    "D2_student": 4,
+    "D4_student": 3
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "트리니다드토바고",
+    "D2_student": 5,
+    "D4_student": 7
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "파나마",
+    "D2_student": 19,
+    "D4_student": 8
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "파라과이",
+    "D2_student": 23,
+    "D4_student": 5
+  },
+  {
+    "continent": "남아메리카주",
+    "country_of_origin": "페루",
+    "D2_student": 75,
+    "D4_student": 43
+  },
+  {
+    "continent": "북아메리카주",
+    "country_of_origin": "미국",
+    "D2_student": 1712,
+    "D4_student": 340
+  },
+  {
+    "continent": "북아메리카주",
+    "country_of_origin": "캐나다",
+    "D2_student": 181,
+    "D4_student": 26
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "네팔",
+    "D2_student": 8867,
+    "D4_student": 381
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "라오스",
+    "D2_student": 111,
+    "D4_student": 91
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "레바논",
+    "D2_student": 8,
+    "D4_student": 4
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "마카오",
+    "D2_student": 40,
+    "D4_student": 16
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "말레이시아",
+    "D2_student": 1039,
+    "D4_student": 157
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "몽골",
+    "D2_student": 10471,
+    "D4_student": 6859
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "미얀마",
+    "D2_student": 3243,
+    "D4_student": 4287
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "바레인",
+    "D2_student": 9,
+    "D4_student": 3
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "방글라데시",
+    "D2_student": 2757,
+    "D4_student": 241
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "베트남",
+    "D2_student": 41359,
+    "D4_student": 55983
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "부탄",
+    "D2_student": 8,
+    "D4_student": 4
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "브루나이",
+    "D2_student": 56,
+    "D4_student": 8
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "사우디아라비아",
+    "D2_student": 68,
+    "D4_student": 198
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "스리랑카",
+    "D2_student": 612,
+    "D4_student": 240
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "시리아",
+    "D2_student": 18,
+    "D4_student": 2
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "싱가포르",
+    "D2_student": 243,
+    "D4_student": 38
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "아랍에미리트연합",
+    "D2_student": 29,
+    "D4_student": 9
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "아프가니스탄",
+    "D2_student": 37,
+    "D4_student": 12
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "예멘공화국",
+    "D2_student": 17,
+    "D4_student": 7
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "오만",
+    "D2_student": 5,
+    "D4_student": 9
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "요르단",
+    "D2_student": 30,
+    "D4_student": 18
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "우즈베키스탄",
+    "D2_student": 13054,
+    "D4_student": 2358
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "이라크",
+    "D2_student": 18,
+    "D4_student": 11
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "이란",
+    "D2_student": 302,
+    "D4_student": 130
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "이스라엘",
+    "D2_student": 39,
+    "D4_student": 13
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "인도",
+    "D2_student": 1714,
+    "D4_student": 380
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "인도네시아",
+    "D2_student": 2304,
+    "D4_student": 428
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "일본",
+    "D2_student": 2826,
+    "D4_student": 1466
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "중국",
+    "D2_student": 67852,
+    "D4_student": 7297
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "카자흐스탄",
+    "D2_student": 1178,
+    "D4_student": 397
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "카타르",
+    "D2_student": 3,
+    "D4_student": 5
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "캄보디아",
+    "D2_student": 362,
+    "D4_student": 123
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "쿠웨이트",
+    "D2_student": 3,
+    "D4_student": 2
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "키르기즈",
+    "D2_student": 897,
+    "D4_student": 911
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "키프로스",
+    "D2_student": 1,
+    "D4_student": 2
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "타이",
+    "D2_student": 591,
+    "D4_student": 450
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "타이완",
+    "D2_student": 1032,
+    "D4_student": 475
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "타지키스탄",
+    "D2_student": 207,
+    "D4_student": 140
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "투르크메니스탄",
+    "D2_student": 58,
+    "D4_student": 20
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "튀르키예",
+    "D2_student": 442,
+    "D4_student": 225
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "티모르민주공화국",
+    "D2_student": 49,
+    "D4_student": 7
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "파키스탄",
+    "D2_student": 1817,
+    "D4_student": 170
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "팔레스타인",
+    "D2_student": 10,
+    "D4_student": 9
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "필리핀",
+    "D2_student": 633,
+    "D4_student": 274
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "한국계중국인",
+    "D2_student": 226,
+    "D4_student": 25
+  },
+  {
+    "continent": "아시아주",
+    "country_of_origin": "홍콩",
+    "D2_student": 473,
+    "D4_student": 171
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "가나",
+    "D2_student": 248,
+    "D4_student": 26
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "가봉",
+    "D2_student": 29,
+    "D4_student": 25
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "감비아",
+    "D2_student": 12,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "기니",
+    "D2_student": 6,
+    "D4_student": 11
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "나미비아",
+    "D2_student": 2,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "나이지리아",
+    "D2_student": 318,
+    "D4_student": 86
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "남수단공화국",
+    "D2_student": 15,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "남아프리카공화국",
+    "D2_student": 32,
+    "D4_student": 16
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "니제르",
+    "D2_student": 1,
+    "D4_student": 2
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "라이베리아",
+    "D2_student": 21,
+    "D4_student": 19
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "레소토",
+    "D2_student": 4,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "르완다",
+    "D2_student": 180,
+    "D4_student": 27
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "리비아",
+    "D2_student": 10,
+    "D4_student": 3
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "마다가스카르",
+    "D2_student": 26,
+    "D4_student": 13
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "말라위",
+    "D2_student": 29,
+    "D4_student": 2
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "말리",
+    "D2_student": 7,
+    "D4_student": 10
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "모로코",
+    "D2_student": 187,
+    "D4_student": 71
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "모리셔스",
+    "D2_student": 4,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "모리타니",
+    "D2_student": 1,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "모잠비크",
+    "D2_student": 16,
+    "D4_student": 2
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "베냉",
+    "D2_student": 6,
+    "D4_student": 2
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "보츠와나",
+    "D2_student": 12,
+    "D4_student": 4
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "부룬디",
+    "D2_student": 250,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "부르키나파소",
+    "D2_student": 6,
+    "D4_student": 8
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "세네갈",
+    "D2_student": 25,
+    "D4_student": 6
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "소말리아",
+    "D2_student": 11,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "수단",
+    "D2_student": 39,
+    "D4_student": 6
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "시에라리온",
+    "D2_student": 16,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "알제리",
+    "D2_student": 37,
+    "D4_student": 25
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "앙골라",
+    "D2_student": 10,
+    "D4_student": 11
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "에스와티니",
+    "D2_student": 2,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "에티오피아",
+    "D2_student": 264,
+    "D4_student": 21
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "우간다",
+    "D2_student": 143,
+    "D4_student": 36
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "이집트",
+    "D2_student": 161,
+    "D4_student": 66
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "잠비아",
+    "D2_student": 18,
+    "D4_student": 8
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "적도기니",
+    "D2_student": 5,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "중앙아프리카공화국",
+    "D2_student": 7,
+    "D4_student": 4
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "짐바브웨",
+    "D2_student": 33,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "차드",
+    "D2_student": 4,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "카메룬",
+    "D2_student": 164,
+    "D4_student": 25
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "카보베르데",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "케냐",
+    "D2_student": 189,
+    "D4_student": 30
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "코모로",
+    "D2_student": 0,
+    "D4_student": 1
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "코트디부아르",
+    "D2_student": 26,
+    "D4_student": 15
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "콩고",
+    "D2_student": 0,
+    "D4_student": 2
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "콩고민주공화국",
+    "D2_student": 55,
+    "D4_student": 20
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "탄자니아",
+    "D2_student": 171,
+    "D4_student": 30
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "토고",
+    "D2_student": 7,
+    "D4_student": 6
+  },
+  {
+    "continent": "아프리카주",
+    "country_of_origin": "튀니지",
+    "D2_student": 51,
+    "D4_student": 14
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "뉴질랜드",
+    "D2_student": 11,
+    "D4_student": 7
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "사모아",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "솔로몬군도",
+    "D2_student": 3,
+    "D4_student": 0
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "오스트레일리아",
+    "D2_student": 124,
+    "D4_student": 26
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "키리바시",
+    "D2_student": 1,
+    "D4_student": 1
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "통가",
+    "D2_student": 1,
+    "D4_student": 1
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "파푸아뉴기니",
+    "D2_student": 3,
+    "D4_student": 0
+  },
+  {
+    "continent": "오세아니아주",
+    "country_of_origin": "피지",
+    "D2_student": 15,
+    "D4_student": 3
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "그리스",
+    "D2_student": 26,
+    "D4_student": 10
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "네덜란드",
+    "D2_student": 290,
+    "D4_student": 21
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "노르웨이",
+    "D2_student": 101,
+    "D4_student": 16
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "덴마크",
+    "D2_student": 127,
+    "D4_student": 10
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "독일",
+    "D2_student": 1119,
+    "D4_student": 102
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "라트비아",
+    "D2_student": 25,
+    "D4_student": 6
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "러시아(연방)",
+    "D2_student": 1399,
+    "D4_student": 1058
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "루마니아",
+    "D2_student": 57,
+    "D4_student": 10
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "룩셈부르크",
+    "D2_student": 12,
+    "D4_student": 0
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "리투아니아",
+    "D2_student": 75,
+    "D4_student": 7
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "몬테네그로",
+    "D2_student": 2,
+    "D4_student": 1
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "몰도바",
+    "D2_student": 18,
+    "D4_student": 4
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "벨기에",
+    "D2_student": 123,
+    "D4_student": 23
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "벨라루스",
+    "D2_student": 62,
+    "D4_student": 33
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "보스니아-헤르체고비나",
+    "D2_student": 3,
+    "D4_student": 1
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "북마케도니아",
+    "D2_student": 3,
+    "D4_student": 2
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "불가리아",
+    "D2_student": 36,
+    "D4_student": 20
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "세르비아",
+    "D2_student": 21,
+    "D4_student": 7
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "스웨덴",
+    "D2_student": 179,
+    "D4_student": 34
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "스위스",
+    "D2_student": 143,
+    "D4_student": 27
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "스페인",
+    "D2_student": 346,
+    "D4_student": 63
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "슬로바크",
+    "D2_student": 23,
+    "D4_student": 8
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "슬로베니아",
+    "D2_student": 10,
+    "D4_student": 2
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "아르메니아",
+    "D2_student": 29,
+    "D4_student": 7
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "아이슬란드",
+    "D2_student": 3,
+    "D4_student": 1
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "아일랜드",
+    "D2_student": 41,
+    "D4_student": 4
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "아제르바이잔",
+    "D2_student": 231,
+    "D4_student": 43
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "알바니아",
+    "D2_student": 10,
+    "D4_student": 0
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "에스토니아",
+    "D2_student": 21,
+    "D4_student": 7
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "영국",
+    "D2_student": 312,
+    "D4_student": 48
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "영국외지민",
+    "D2_student": 10,
+    "D4_student": 2
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "영국해외영토시민",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "오스트리아",
+    "D2_student": 59,
+    "D4_student": 9
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "우크라이나",
+    "D2_student": 129,
+    "D4_student": 126
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "이탈리아",
+    "D2_student": 342,
+    "D4_student": 124
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "조지아",
+    "D2_student": 28,
+    "D4_student": 15
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "체코",
+    "D2_student": 65,
+    "D4_student": 6
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "코소보",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "크로아티아",
+    "D2_student": 14,
+    "D4_student": 2
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "포르투갈",
+    "D2_student": 48,
+    "D4_student": 9
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "폴란드",
+    "D2_student": 165,
+    "D4_student": 30
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "프랑스",
+    "D2_student": 1600,
+    "D4_student": 360
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "핀란드",
+    "D2_student": 108,
+    "D4_student": 12
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "한국계러시아인",
+    "D2_student": 1,
+    "D4_student": 0
+  },
+  {
+    "continent": "유럽주",
+    "country_of_origin": "헝가리",
+    "D2_student": 74,
+    "D4_student": 14
+  }
+]

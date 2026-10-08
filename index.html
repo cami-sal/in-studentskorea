@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Foreign Students in Korea (1999–2026) — Point Accumulation Map</title>
+  <title>Foreign Students in Korea (1999–2026) — Interactive Map</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,45 +20,66 @@
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 
   <!-- External Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=13">
+  <link rel="stylesheet" href="style.css?v=14">
 </head>
 
 <body>
   <div class="wrap">
     <header>
       <div class="header-top">
-        <h1 id="mainTitle">Foreign Students in Korea</h1>
+        <div class="header-title-block">
+          <h1 id="mainTitle">Foreign Students in Korea</h1>
+          <p class="subtitle" id="mainSubtitle">
+            Continuous accumulation of international university students across South Korea from 1999 to 2026.
+          </p>
+        </div>
         <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Language selector">
-          <button class="lang-btn active" data-lang="en" title="English">EN</button>
-          <button class="lang-btn" data-lang="ko" title="한국어">한국어</button>
+          <svg class="lang-globe-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <div class="lang-toggle-group">
+            <button class="lang-btn active" data-lang="en" title="English">EN</button>
+            <button class="lang-btn" data-lang="ko" title="한국어">한국어</button>
+          </div>
         </div>
       </div>
-      <p class="subtitle" id="mainSubtitle">
-        Continuous accumulation of international university students across South Korea from 1999 to 2026.
-      </p>
     </header>
+
+    <!-- View Mode Switcher (Domestic Korea Map vs World Countries of Origin) -->
+    <div class="view-mode-bar" role="tablist" aria-label="Map view mode">
+      <button class="view-mode-btn active" id="btnModeKorea" role="tab" aria-selected="true" data-mode="korea">
+        <span class="mode-icon">🇰🇷</span>
+        <span class="mode-title" id="modeKoreaTitle">Domestic Distribution (1999–2026)</span>
+      </button>
+      <button class="view-mode-btn" id="btnModeWorld" role="tab" aria-selected="false" data-mode="world">
+        <span class="mode-icon">🌍</span>
+        <span class="mode-title" id="modeWorldTitle">Country of Origin (2024 Visa Data)</span>
+      </button>
+    </div>
 
     <!-- Top Statistical Summary Cards -->
     <div class="stats-bar">
       <div class="stat-card">
-        <div class="stat-label" id="labelNationalTotal">National Total</div>
-        <div class="stat-val" id="statNationalTotal">—</div>
-        <div class="stat-sub" id="statYearSub">Students nationwide</div>
+        <div class="stat-label" id="labelCard1">National Total</div>
+        <div class="stat-val" id="statCard1Val">—</div>
+        <div class="stat-sub" id="statCard1Sub">Students nationwide</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label" id="labelTotalCircles">Total Circles</div>
-        <div class="stat-val" id="statTotalCircles">—</div>
-        <div class="stat-sub" id="statScaleSub">1 circle = 50 students</div>
+        <div class="stat-label" id="labelCard2">Total Circles</div>
+        <div class="stat-val" id="statCard2Val">—</div>
+        <div class="stat-sub" id="statCard2Sub">1 circle = 50 students</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label" id="labelSeoulTotal">Seoul Concentration</div>
-        <div class="stat-val" id="statSeoulTotal">—</div>
-        <div class="stat-sub" id="statSeoulShare">—</div>
+        <div class="stat-label" id="labelCard3">Seoul Concentration</div>
+        <div class="stat-val" id="statCard3Val">—</div>
+        <div class="stat-sub" id="statCard3Sub">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label" id="labelCapitalTotal">Capital Area (Seoul+Gyeonggi+Incheon)</div>
-        <div class="stat-val" id="statCapitalTotal">—</div>
-        <div class="stat-sub" id="statCapitalShare">—</div>
+        <div class="stat-label" id="labelCard4">Capital Area (Seoul+Gyeonggi+Incheon)</div>
+        <div class="stat-val" id="statCard4Val">—</div>
+        <div class="stat-sub" id="statCard4Sub">—</div>
       </div>
     </div>
 
@@ -72,8 +94,8 @@
       <!-- Leaflet Interactive Zoomable Map -->
       <div id="chart" role="region" aria-label="Interactive map of international students in South Korea"></div>
 
-      <!-- Animation Control Panel (Floating on Left) -->
-      <div class="map-left-controls">
+      <!-- Korea Timeline Controls Panel (Floating on Left) -->
+      <div class="map-left-controls" id="koreaControls">
         <div class="controls-card-header">
           <span class="controls-title" id="labelTimeline">Timeline</span>
           <span class="year-badge" id="yearLabel">2026</span>
@@ -123,6 +145,62 @@
         </div>
       </div>
 
+      <!-- World Origin Countries Controls Panel (Floating on Left for World Mode) -->
+      <div class="map-left-controls world-controls" id="worldControls" style="display: none;">
+        <div class="controls-card-header">
+          <span class="controls-title" id="labelWorldPanel">Origin Countries</span>
+          <span class="year-badge" id="worldCountBadge">182</span>
+        </div>
+
+        <!-- Visa Filter -->
+        <div class="control-row-stacked">
+          <span class="control-label" id="labelVisaFilter">Visa Category</span>
+          <div class="visa-filter-group" id="visaFilterGroup">
+            <button class="visa-btn active" data-visa="all" id="btnVisaAll">All (D2+D4)</button>
+            <button class="visa-btn" data-visa="d2" id="btnVisaD2">D-2 Degree</button>
+            <button class="visa-btn" data-visa="d4" id="btnVisaD4">D-4 Language</button>
+          </div>
+        </div>
+
+        <!-- Continent Filter -->
+        <div class="control-row-stacked">
+          <span class="control-label" id="labelContinentFilter">Filter by Continent</span>
+          <select id="continentSelect" class="scale-select-full">
+            <option value="all" id="optContAll">All Continents (182)</option>
+            <option value="Asia" id="optContAsia">Asia (44)</option>
+            <option value="Europe" id="optContEurope">Europe (45)</option>
+            <option value="North America" id="optContNA">North America (2)</option>
+            <option value="South America" id="optContSA">South America (31)</option>
+            <option value="Africa" id="optContAfrica">Africa (52)</option>
+            <option value="Oceania" id="optContOceania">Oceania (8)</option>
+          </select>
+        </div>
+
+        <!-- Top Origins Mini-Leaderboard -->
+        <div class="control-row-stacked">
+          <span class="control-label" id="labelTopOrigins">Top Origin Countries</span>
+          <div class="top-countries-list" id="topCountriesList">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- World Circle Legend -->
+        <div class="legend-box world-legend-box">
+          <div class="world-legend-item">
+            <span class="world-circle-sample sample-lg"></span>
+            <span class="world-legend-label" id="legLg">50k+</span>
+          </div>
+          <div class="world-legend-item">
+            <span class="world-circle-sample sample-md"></span>
+            <span class="world-legend-label" id="legMd">5k–20k</span>
+          </div>
+          <div class="world-legend-item">
+            <span class="world-circle-sample sample-sm"></span>
+            <span class="world-legend-label" id="legSm">&lt;1k</span>
+          </div>
+        </div>
+      </div>
+
       <!-- Data Source Attribution (Bottom Right) -->
       <div class="map-source-tag" id="mapSourceTag">
         Source: Higher Education in Korea / Ministry of Education
@@ -133,8 +211,8 @@
   <div class="tooltip" id="tooltip"></div>
 
   <!-- Data & Modular Logic -->
-  <script src="data.js?v=13"></script>
-  <script src="app.js?v=13"></script>
+  <script src="data.js?v=14"></script>
+  <script src="app.js?v=14"></script>
 </body>
 
 </html>
