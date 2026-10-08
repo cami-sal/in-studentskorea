@@ -5,10 +5,13 @@ An interactive geographic point accumulation map visualizing the growth and geog
 ## 📁 Project Structure
 
 ```text
-├── index.html       # Primary HTML entry point for GitHub Pages & web servers
-├── style.css        # Independent stylesheet (typography, layout, map styling & cards)
-├── data.json        # Unified dataset (GeoJSON boundaries, historical student data & coordinates)
-├── app.js           # D3.js logic (projection, chronological swarm animation & controls)
+├── index.html       # Primary HTML entry point with dual-mode support & critical style fallbacks
+├── style.css        # Full stylesheet (typography, responsive controls, cards & circle animations)
+├── app.js           # D3.js + Leaflet logic (Korea accumulation timeline & World origin mapping)
+├── data.js          # Synchronous data wrapper (embedded window data for zero CORS issues)
+├── data.json        # GeoJSON boundaries, historical student series & 2024 country visa stats
+├── favicon.svg      # Custom student graduation hat vector favicon
+├── student_visas_by_country_D2_D4_2024.json  # 2024 international student visa dataset
 └── README.md        # Documentation and deployment instructions
 ```
 

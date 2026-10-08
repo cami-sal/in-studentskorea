@@ -19,8 +19,72 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 
-  <!-- External Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=14">
+  <!-- Critical Core Layout & Rendering Guarantee -->
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --surface-subtle: #f4f4f5;
+      --text: #09090b;
+      --muted: #71717a;
+      --line: #e4e4e7;
+      --primary: #2563eb;
+      --circle-stroke: #2563eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #fafafa;
+      color: #09090b;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 1240px; margin: 0 auto; padding: 32px 24px 48px; }
+    .map-container {
+      background: #ffffff;
+      border: 1px solid #e4e4e7;
+      border-radius: 16px;
+      padding: 12px;
+      position: relative;
+      width: 100%;
+      min-height: 500px;
+    }
+    #chart {
+      width: 100%;
+      height: 770px;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      background: #f8fafc;
+    }
+    /* Guaranteed Hollow Blue Circles on all devices/CDNs */
+    .map-circle, .empty-circle {
+      fill: none !important;
+      stroke: #2563eb !important;
+      stroke-width: 1.3px;
+      stroke-opacity: 0.85;
+      cursor: pointer;
+    }
+    .map-circle:hover, .empty-circle:hover {
+      stroke: #ef4444 !important;
+      stroke-width: 2.6px !important;
+      stroke-opacity: 1 !important;
+    }
+    .country-circle {
+      fill: rgba(37, 99, 235, 0.22);
+      stroke: #2563eb;
+      stroke-width: 1.5px;
+      cursor: pointer;
+    }
+    .country-circle:hover, .country-circle.active {
+      fill: rgba(239, 68, 68, 0.38) !important;
+      stroke: #ef4444 !important;
+      stroke-width: 2.8px !important;
+    }
+  </style>
+
+  <!-- External Stylesheet with Cache Busting -->
+  <link rel="stylesheet" href="style.css?v=20261008-v2">
 </head>
 
 <body>
@@ -210,9 +274,9 @@
 
   <div class="tooltip" id="tooltip"></div>
 
-  <!-- Data & Modular Logic -->
-  <script src="data.js?v=14"></script>
-  <script src="app.js?v=14"></script>
+  <!-- Data & Modular Logic with Cache Busting -->
+  <script src="data.js?v=20261008-v2"></script>
+  <script src="app.js?v=20261008-v2"></script>
 </body>
 
 </html>
