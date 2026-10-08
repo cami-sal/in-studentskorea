@@ -5,28 +5,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Foreign Students in Korea (1999–2026) — Point Accumulation Map</title>
-  
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-  
-  <!-- D3.js -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Leaflet & D3.js -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  
+
   <!-- External Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=13">
 </head>
 
 <body>
   <div class="wrap">
     <header>
-      <div class="badge-row">
-        <span class="badge"><span class="badge-dot"></span> Interactive D3.js Map</span>
-        <span class="badge badge-style">1999 — 2026 Historical Growth</span>
+      <div class="header-top">
+        <h1 id="mainTitle">Foreign Students in Korea</h1>
+        <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="en" title="English">EN</button>
+          <button class="lang-btn" data-lang="ko" title="한국어">한국어</button>
+        </div>
       </div>
-      <h1>Foreign Students in Korea</h1>
-      <p class="subtitle">
+      <p class="subtitle" id="mainSubtitle">
         Continuous accumulation of international university students across South Korea from 1999 to 2026.
       </p>
     </header>
@@ -34,22 +40,22 @@
     <!-- Top Statistical Summary Cards -->
     <div class="stats-bar">
       <div class="stat-card">
-        <div class="stat-label">National Total</div>
+        <div class="stat-label" id="labelNationalTotal">National Total</div>
         <div class="stat-val" id="statNationalTotal">—</div>
         <div class="stat-sub" id="statYearSub">Students nationwide</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Total Circles</div>
+        <div class="stat-label" id="labelTotalCircles">Total Circles</div>
         <div class="stat-val" id="statTotalCircles">—</div>
         <div class="stat-sub" id="statScaleSub">1 circle = 50 students</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Seoul Concentration</div>
+        <div class="stat-label" id="labelSeoulTotal">Seoul Concentration</div>
         <div class="stat-val" id="statSeoulTotal">—</div>
         <div class="stat-sub" id="statSeoulShare">—</div>
       </div>
       <div class="stat-card">
-        <div class="stat-label">Capital Area (Seoul+Gyeonggi+Incheon)</div>
+        <div class="stat-label" id="labelCapitalTotal">Capital Area (Seoul+Gyeonggi+Incheon)</div>
         <div class="stat-val" id="statCapitalTotal">—</div>
         <div class="stat-sub" id="statCapitalShare">—</div>
       </div>
@@ -60,16 +66,16 @@
       <!-- Loading Overlay -->
       <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner"></div>
-        <div class="loading-text">Loading geographic dataset...</div>
+        <div class="loading-text" id="loadingText">Loading geographic dataset...</div>
       </div>
 
-      <svg id="chart" viewBox="0 0 1000 840" role="img"
-        aria-label="Point accumulation map of international students in South Korea"></svg>
+      <!-- Leaflet Interactive Zoomable Map -->
+      <div id="chart" role="region" aria-label="Interactive map of international students in South Korea"></div>
 
       <!-- Animation Control Panel (Floating on Left) -->
       <div class="map-left-controls">
         <div class="controls-card-header">
-          <span class="controls-title">Timeline</span>
+          <span class="controls-title" id="labelTimeline">Timeline</span>
           <span class="year-badge" id="yearLabel">2026</span>
         </div>
 
@@ -94,7 +100,7 @@
         </div>
 
         <div class="control-row">
-          <span class="control-label">Speed</span>
+          <span class="control-label" id="labelSpeed">Speed</span>
           <div class="speed-selector">
             <button class="speed-btn" data-speed="0.5">0.5x</button>
             <button class="speed-btn active" data-speed="1">1x</button>
@@ -103,36 +109,32 @@
         </div>
 
         <div class="control-row-stacked">
-          <span class="control-label">Cohort Scale</span>
+          <span class="control-label" id="labelCohortScale">Cohort Scale</span>
           <select id="unitScale" class="scale-select-full">
-            <option value="50" selected>1 circle = 50 students</option>
-            <option value="100">1 circle = 100 students</option>
-            <option value="25">1 circle = 25 students (dense)</option>
+            <option value="50" selected id="optScale50">1 circle = 50 students</option>
+            <option value="100" id="optScale100">1 circle = 100 students</option>
+            <option value="25" id="optScale25">1 circle = 25 students (dense)</option>
           </select>
         </div>
 
         <div class="legend-box">
-          <span class="empty-circle-icon"></span>
+          <span class="circle-icon"></span>
           <span id="legendText">1 circle = 50 students</span>
         </div>
       </div>
 
-      <!-- How to Read Info Card (Bottom Right Corner) -->
-      <div class="map-corner-card">
-        <div class="corner-title">How to read</div>
-        <div class="corner-text">
-          Circles appear smoothly across Korea as student cohorts arrive. Overlapping hollow outlines build up
-          cross-hatched density in major educational centers. Hover over any province to inspect exact statistics.
-        </div>
-        <div class="corner-source">Source: Higher Education in Korea / Ministry of Education</div>
+      <!-- Data Source Attribution (Bottom Right) -->
+      <div class="map-source-tag" id="mapSourceTag">
+        Source: Higher Education in Korea / Ministry of Education
       </div>
     </div>
   </div>
 
   <div class="tooltip" id="tooltip"></div>
 
-  <!-- Modular Logic -->
-  <script src="app.js"></script>
+  <!-- Data & Modular Logic -->
+  <script src="data.js?v=13"></script>
+  <script src="app.js?v=13"></script>
 </body>
 
 </html>

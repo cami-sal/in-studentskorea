@@ -1,16 +1,17 @@
 :root {
-  --bg: #f8fafc;
+  --bg: #fafafa;
   --surface: #ffffff;
-  --surface-subtle: #f1f5f9;
-  --text: #0f172a;
-  --muted: #64748b;
-  --line: #e2e8f0;
+  --surface-subtle: #f4f4f5;
+  --text: #09090b;
+  --muted: #71717a;
+  --line: #e4e4e7;
   --primary: #2563eb;
   --primary-hover: #1d4ed8;
-  --map-fill: #f8fafc;
-  --map-hover: #f1f5f9;
-  --map-stroke: #cbd5e1;
-  --circle-stroke: #1e40af;
+  --map-fill: rgba(255, 255, 255, 0.02);
+  --map-hover: rgba(37, 99, 235, 0.08);
+  --map-stroke: #64748b;
+  --outer-border: #09090b;
+  --circle-stroke: #2563eb;
   --circle-stroke-hover: #ef4444;
 }
 
@@ -167,7 +168,7 @@ h1 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 16px;
+  padding: 12px;
   position: relative;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
   width: 100%;
@@ -176,12 +177,55 @@ h1 {
   min-height: 500px;
 }
 
-svg {
+#chart {
   width: 100%;
-  height: auto;
-  max-height: 770px;
-  display: block;
-  margin: 0 auto;
+  height: 770px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: #f8fafc;
+  z-index: 1;
+}
+
+/* OpenStreetMap High-Contrast Black & White Line Filter */
+.leaflet-tile-pane {
+  filter: grayscale(100%) contrast(115%) brightness(98%);
+}
+
+.leaflet-container {
+  font-family: inherit;
+  background: #f8fafc;
+}
+
+/* Custom Zoom Control */
+.leaflet-top.leaflet-right {
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.leaflet-bar {
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid var(--line) !important;
+}
+
+.leaflet-bar a {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  color: #0f172a !important;
+  border-bottom: 1px solid var(--line) !important;
+  width: 36px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  transition: all 0.15s ease;
+}
+
+.leaflet-bar a:hover {
+  background-color: #0f172a !important;
+  color: #ffffff !important;
 }
 
 /* Animation Controls (Floating on the Left White Area of Map) */
@@ -196,8 +240,8 @@ svg {
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 14px 16px;
-  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
-  z-index: 10;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -357,11 +401,11 @@ input[type="range"] {
   flex-shrink: 0;
 }
 
-/* Map Shapes */
+/* Map Shapes (OSM Minimalist Line-art Aesthetic) */
 .province-path {
   fill: var(--map-fill);
-  stroke: var(--map-stroke);
-  stroke-width: 1px;
+  stroke: #94a3b8;
+  stroke-width: 0.8px;
   stroke-linejoin: round;
   stroke-linecap: round;
   transition: fill 0.15s ease, stroke 0.15s ease;
@@ -371,30 +415,53 @@ input[type="range"] {
 .province-path:hover,
 .province-path.active {
   fill: var(--map-hover);
-  stroke: #94a3b8;
-  stroke-width: 1.5px;
+  stroke: #0f172a;
+  stroke-width: 1.2px;
 }
 
-/* Empty Circles (Walmart Growth style) */
+/* Crisp, Refined Border of Korea */
+.outer-border-path {
+  fill: none;
+  stroke: #1e293b;
+  stroke-width: 1.1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* Empty Circles (Point Accumulation) — Vibrant Blue with Red on Hover */
 .empty-circle {
   fill: none;
-  stroke: var(--circle-stroke);
-  stroke-width: 1.2px;
-  stroke-opacity: 0.75;
+  stroke: #2563eb;
+  stroke-width: 1.3px;
+  stroke-opacity: 0.85;
   cursor: pointer;
+  transition: stroke 0.12s ease, stroke-width 0.12s ease, stroke-opacity 0.12s ease;
 }
 
 .empty-circle:hover {
-  stroke: var(--circle-stroke-hover);
-  stroke-width: 2.2px;
-  stroke-opacity: 1;
+  stroke: #ef4444 !important;
+  stroke-width: 2.6px !important;
+  stroke-opacity: 1 !important;
 }
 
-/* Province Labels */
+.empty-circle-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1.6px solid #2563eb;
+  background: transparent;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Province Labels & Technical Typography */
 .province-label-bg {
   font-size: 10px;
   font-weight: 700;
-  fill: #475569;
+  fill: #27272a;
+  letter-spacing: 0.02em;
   paint-order: stroke fill;
   stroke: #ffffff;
   stroke-width: 3px;
@@ -406,8 +473,8 @@ input[type="range"] {
 
 .province-count-badge {
   font-size: 9px;
-  font-weight: 600;
-  fill: #2563eb;
+  font-weight: 700;
+  fill: #09090b;
   paint-order: stroke fill;
   stroke: #ffffff;
   stroke-width: 2.5px;
@@ -418,7 +485,7 @@ input[type="range"] {
 .map-watermark {
   font-size: 11px;
   font-weight: 700;
-  fill: #94a3b8;
+  fill: #a1a1aa;
   letter-spacing: 0.08em;
 }
 
@@ -468,6 +535,24 @@ input[type="range"] {
 
 .tooltip-row strong {
   color: #fff;
+}
+
+.map-source-tag {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+  font-size: 11px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--line);
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  z-index: 10;
+  pointer-events: none;
 }
 
 .map-corner-card {
@@ -546,21 +631,160 @@ input[type="range"] {
   color: #475569;
 }
 
-/* Responsive adjustments */
-@media (max-width: 860px) {
-  .map-left-controls {
-    position: static;
-    width: 100%;
+/* ==========================================================================
+   Responsive Adaptation System (Mobile, Tablet, Desktop, Touch)
+   ========================================================================== */
+
+/* Tablet & Smaller Screens (<= 1024px) */
+@media (max-width: 1024px) {
+  .wrap {
+    padding: 24px 20px 48px;
+    max-width: 100%;
+  }
+
+  .stats-bar {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .stat-val {
+    font-size: clamp(20px, 2.8vw, 24px);
+  }
+}
+
+/* Mobile & Touch Devices (<= 768px) */
+@media (max-width: 768px) {
+  .wrap {
+    padding: 16px 14px 36px;
+  }
+
+  header {
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: clamp(24px, 6vw, 32px);
+  }
+
+  .subtitle {
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+
+  .stats-bar {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
     margin-bottom: 14px;
   }
 
-  .map-corner-card {
-    position: static;
-    max-width: 100%;
-    margin-top: 14px;
+  .stat-card {
+    padding: 10px 12px;
+    border-radius: 10px;
   }
 
-  .wrap {
-    padding: 20px 16px 36px;
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .stat-val {
+    font-size: 18px;
+  }
+
+  .stat-sub {
+    font-size: 10px;
+  }
+
+  .map-container {
+    padding: 12px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  /* Un-float controls on mobile to prevent blocking the map */
+  .map-left-controls {
+    position: static;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: none;
+    border: 1px solid var(--line);
+    background: var(--surface-subtle);
+  }
+
+  .btn {
+    min-height: 44px;
+    /* 44px Touch Target */
+    font-size: 14px;
+  }
+
+  .btn-step {
+    min-height: 40px;
+  }
+
+  .speed-selector {
+    height: 38px;
+  }
+
+  .speed-btn {
+    font-size: 12px;
+  }
+
+  .scale-select-full {
+    min-height: 42px;
+    font-size: 13px;
+  }
+
+  input[type="range"] {
+    height: 8px;
+    /* Easier to grab on touch */
+  }
+
+  .map-source-tag {
+    position: static;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    padding: 4px 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  /* Tooltip on touch */
+  .tooltip {
+    max-width: 260px;
+    padding: 12px 14px;
+    font-size: 12px;
+  }
+}
+
+/* Small Handheld Screens (<= 440px) */
+@media (max-width: 440px) {
+  .stats-bar {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .step-btn-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* High-DPI & Print Clean States */
+@media print {
+
+  .map-left-controls,
+  .loading-overlay,
+  .tooltip {
+    display: none !important;
+  }
+
+  .map-container {
+    border: none;
+    box-shadow: none;
+    padding: 0;
   }
 }
