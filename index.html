@@ -4,42 +4,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Interactive cartography and longitudinal visualization of foreign higher-education students in South Korea across 17 provinces from 1999 to 2026, alongside 2024 global origin countries and visa distributions.">
+  <meta name="theme-color" content="#f8f6f0">
   <title>Foreign Students in Korea (1999–2026) — Interactive Map</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-  <!-- Fonts -->
+  <!-- Performance Resource Hints: DNS Prefetch & Preconnect for CDNs and Basemap Tiles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://server.arcgisonline.com">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+  <!-- Streamlined High-Performance Google Fonts (display=swap, curated roman weights only) -->
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600..900&family=JetBrains+Mono:wght@600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
     rel="stylesheet">
 
-  <!-- Leaflet & D3.js -->
+  <!-- Leaflet & D3.js (Non-blocking Deferred Execution) -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 
-  <!-- Critical Core Layout & Rendering Guarantee -->
+  <!-- Critical Core Layout & Rendering Guarantee with Hardware Compositing & CSS Containment -->
   <style>
     :root {
-      --bg: #fafafa;
+      --bg: #f8f6f0;
       --surface: #ffffff;
-      --surface-subtle: #f4f4f5;
-      --text: #09090b;
-      --muted: #71717a;
-      --line: #e4e4e7;
-      --primary: #2563eb;
-      --circle-stroke: #2563eb;
+      --surface-subtle: #f2eee3;
+      --text: #121211;
+      --muted: #5c5850;
+      --line: #ded8cb;
+      --line-strong: #1a1917;
+      --primary: #1d4ed8;
+      --circle-stroke: #1d4ed8;
+      --font-display: 'Fraunces', Georgia, serif;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      background: #fafafa;
-      color: #09090b;
+      background: #f8f6f0;
+      color: #121211;
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 1240px; margin: 0 auto; padding: 32px 24px 48px; }
+
+    .wrap {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 32px 24px 48px;
+    }
+
     .map-container {
       background: #ffffff;
       border: 1px solid #e4e4e7;
@@ -48,7 +68,9 @@
       position: relative;
       width: 100%;
       min-height: 500px;
+      contain: layout paint;
     }
+
     #chart {
       width: 100%;
       height: 770px;
@@ -56,49 +78,57 @@
       overflow: hidden;
       position: relative;
       background: #f8fafc;
+      contain: strict;
+      transform: translateZ(0);
     }
+
     /* Guaranteed Hollow Blue Circles on all devices/CDNs */
-    .map-circle, .empty-circle {
+    .map-circle,
+    .empty-circle {
       fill: none !important;
       stroke: #2563eb !important;
       stroke-width: 1.3px;
       stroke-opacity: 0.85;
       cursor: pointer;
+      transition: stroke 0.25s cubic-bezier(0.22, 1, 0.36, 1), stroke-width 0.25s cubic-bezier(0.22, 1, 0.36, 1), stroke-opacity 0.25s ease;
     }
-    .map-circle:hover, .empty-circle:hover {
+
+    .map-circle:hover,
+    .empty-circle:hover {
       stroke: #ef4444 !important;
       stroke-width: 2.6px !important;
       stroke-opacity: 1 !important;
     }
-    .country-circle {
-      fill: rgba(37, 99, 235, 0.22);
-      stroke: #2563eb;
-      stroke-width: 1.5px;
+
+    .world-country-marker {
       cursor: pointer;
-    }
-    .country-circle:hover, .country-circle.active {
-      fill: rgba(239, 68, 68, 0.38) !important;
-      stroke: #ef4444 !important;
-      stroke-width: 2.8px !important;
     }
   </style>
 
   <!-- External Stylesheet with Cache Busting -->
-  <link rel="stylesheet" href="style.css?v=20261008-v2">
+  <link rel="stylesheet" href="style.css?v=20261015-unifiedkorealegend4">
 </head>
 
-<body>
+<body data-active-mode="korea">
   <div class="wrap">
     <header>
       <div class="header-top">
         <div class="header-title-block">
+          <div class="editorial-kicker">
+            <span class="kicker-line"></span>
+            <span class="kicker-text" id="kickerText">INTERNATIONAL STUDENTS IN KOREA CARTOGRAPHY · 1999–2026
+              ARCHIVE</span>
+            <span class="kicker-line"></span>
+          </div>
           <h1 id="mainTitle">Foreign Students in Korea</h1>
           <p class="subtitle" id="mainSubtitle">
-            Continuous accumulation of international university students across South Korea from 1999 to 2026.
+            Continuous accumulation across 17 Korean provinces (1999–2026) and global countries of origin (2024 visa
+            statistics).
           </p>
         </div>
         <div class="lang-switcher" id="langSwitcher" role="group" aria-label="Language selector">
-          <svg class="lang-globe-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg class="lang-globe-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="12" cy="12" r="10"></circle>
             <line x1="2" y1="12" x2="22" y2="12"></line>
             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
@@ -111,172 +141,303 @@
       </div>
     </header>
 
-    <!-- View Mode Switcher (Domestic Korea Map vs World Countries of Origin) -->
-    <div class="view-mode-bar" role="tablist" aria-label="Map view mode">
-      <button class="view-mode-btn active" id="btnModeKorea" role="tab" aria-selected="true" data-mode="korea">
-        <span class="mode-icon">🇰🇷</span>
-        <span class="mode-title" id="modeKoreaTitle">Domestic Distribution (1999–2026)</span>
-      </button>
-      <button class="view-mode-btn" id="btnModeWorld" role="tab" aria-selected="false" data-mode="world">
-        <span class="mode-icon">🌍</span>
-        <span class="mode-title" id="modeWorldTitle">Country of Origin (2024 Visa Data)</span>
-      </button>
-    </div>
-
-    <!-- Top Statistical Summary Cards -->
+    <!-- Top Statistical Summary Cards: Broadside Ledger Panel -->
     <div class="stats-bar">
       <div class="stat-card">
+        <div class="stat-index" id="statIdx1">01 / TOTAL</div>
         <div class="stat-label" id="labelCard1">National Total</div>
         <div class="stat-val" id="statCard1Val">—</div>
         <div class="stat-sub" id="statCard1Sub">Students nationwide</div>
       </div>
       <div class="stat-card">
+        <div class="stat-index" id="statIdx2">02 / COHORT</div>
         <div class="stat-label" id="labelCard2">Total Circles</div>
         <div class="stat-val" id="statCard2Val">—</div>
         <div class="stat-sub" id="statCard2Sub">1 circle = 50 students</div>
       </div>
       <div class="stat-card">
+        <div class="stat-index" id="statIdx3">03 / FOCUS</div>
         <div class="stat-label" id="labelCard3">Seoul Concentration</div>
         <div class="stat-val" id="statCard3Val">—</div>
         <div class="stat-sub" id="statCard3Sub">—</div>
       </div>
       <div class="stat-card">
+        <div class="stat-index" id="statIdx4">04 / METROPOLIS</div>
         <div class="stat-label" id="labelCard4">Capital Area (Seoul+Gyeonggi+Incheon)</div>
         <div class="stat-val" id="statCard4Val">—</div>
         <div class="stat-sub" id="statCard4Sub">—</div>
       </div>
     </div>
 
-    <!-- Map & Floating Controls Container -->
-    <div class="map-container">
-      <!-- Loading Overlay -->
-      <div class="loading-overlay" id="loadingOverlay">
-        <div class="loading-spinner"></div>
-        <div class="loading-text" id="loadingText">Loading geographic dataset...</div>
-      </div>
-
-      <!-- Leaflet Interactive Zoomable Map -->
-      <div id="chart" role="region" aria-label="Interactive map of international students in South Korea"></div>
-
-      <!-- Korea Timeline Controls Panel (Floating on Left) -->
-      <div class="map-left-controls" id="koreaControls">
-        <div class="controls-card-header">
-          <span class="controls-title" id="labelTimeline">Timeline</span>
-          <span class="year-badge" id="yearLabel">2026</span>
+    <!-- Map Workspace: Left Outside Views Sidebar + Map Container -->
+    <div class="map-workspace">
+      <!-- Left Outside Sidebar Column: View Selection + All Map Legends -->
+      <aside class="map-sidebar-left" aria-label="Map views and legends sidebar">
+        <!-- 3 View Mode Switcher Buttons (Stacked Vertically on Left Outside Map Window) -->
+        <div class="view-mode-bar" role="tablist" aria-label="Map view mode">
+          <button class="view-mode-btn active" id="btnModeKorea" role="tab" aria-selected="true" data-mode="korea">
+            <span class="mode-icon">🇰🇷</span>
+            <span class="mode-title" id="modeKoreaTitle">Domestic Distribution (1999–2026)</span>
+          </button>
+          <button class="view-mode-btn" id="btnModeWorld" role="tab" aria-selected="false" data-mode="world">
+            <span class="mode-icon">🌍</span>
+            <span class="mode-title" id="modeWorldTitle">Country of Origin (2024 Visa Data)</span>
+          </button>
+          <button class="view-mode-btn" id="btnModeLanguage" role="tab" aria-selected="false" data-mode="language">
+            <span class="mode-icon">🗣️</span>
+            <span class="mode-title" id="modeLanguageTitle">Linguistic Groups</span>
+          </button>
         </div>
 
-        <div class="slider-wrap">
-          <input id="yearSlider" type="range" min="1999" max="2026" value="2026" step="any">
-          <div class="slider-ticks">
-            <span>1999</span>
-            <span>2005</span>
-            <span>2010</span>
-            <span>2015</span>
-            <span>2020</span>
-            <span>2026</span>
+        <!-- Korea Timeline Controls Panel (Moved to Left Sidebar Outside of Map) -->
+        <div class="map-left-controls panel-visible" id="koreaControls">
+          <div class="controls-card-header">
+            <div class="controls-card-header-left">
+              <span class="controls-title" id="labelTimeline">Timeline</span>
+              <div class="year-badge-wrap">
+                <span class="year-badge-dot" id="yearBadgeDot" aria-hidden="true"></span>
+                <span class="year-badge" id="yearLabel">2026</span>
+              </div>
+            </div>
+            <button class="panel-collapse-btn" id="btnHideKoreaPanel" type="button" title="Hide menu"
+              aria-label="Hide menu" style="display: none;">
+              <span class="collapse-icon">◀</span>
+              <span class="collapse-text" id="labelHideKorea">Hide</span>
+            </button>
+          </div>
+
+          <div class="slider-wrap">
+            <input id="yearSlider" type="range" min="1999" max="2026" value="2026" step="any">
+            <div class="slider-ticks">
+              <span>1999</span>
+              <span>2005</span>
+              <span>2010</span>
+              <span>2015</span>
+              <span>2020</span>
+              <span>2026</span>
+            </div>
+          </div>
+
+          <div class="playback-btn-group">
+            <button class="btn btn-primary btn-play-main" id="play">▶ Play</button>
+            <div class="step-btn-row">
+              <button class="btn btn-step" id="prevYear" title="Previous Year">◀ Prev</button>
+              <button class="btn btn-step" id="nextYear" title="Next Year">Next ▶</button>
+            </div>
+          </div>
+
+          <div class="control-row">
+            <span class="control-label" id="labelSpeed">Speed</span>
+            <div class="speed-selector">
+              <button class="speed-btn" data-speed="0.5">0.5x</button>
+              <button class="speed-btn active" data-speed="1">1x</button>
+              <button class="speed-btn" data-speed="2">2x</button>
+            </div>
+          </div>
+
+          <div class="control-row-stacked">
+            <span class="control-label" id="labelCohortScale">Cohort Scale</span>
+            <select id="unitScale" class="scale-select-full">
+              <option value="50" selected id="optScale50">1 circle = 50 students</option>
+              <option value="100" id="optScale100">1 circle = 100 students</option>
+              <option value="25" id="optScale25">1 circle = 25 students (dense)</option>
+            </select>
+          </div>
+
+          <!-- Map Legend inside Timeline Section -->
+          <div class="control-row-stacked korea-legend-section" id="koreaLegendSection">
+            <span class="control-label" id="legendKoreaTitle">Map Legend</span>
+            <div class="legend-box" id="koreaLegendBox">
+              <span class="circle-icon"></span>
+              <span id="legendText">1 circle = 50 students</span>
+            </div>
           </div>
         </div>
 
-        <div class="playback-btn-group">
-          <button class="btn btn-primary btn-play-main" id="play">▶ Play</button>
-          <div class="step-btn-row">
-            <button class="btn btn-step" id="prevYear" title="Previous Year">◀ Prev</button>
-            <button class="btn btn-step" id="nextYear" title="Next Year">Next ▶</button>
+        <!-- World Origin Countries Controls Panel (Moved to Left Sidebar Outside of Map) -->
+        <div class="map-left-controls world-controls panel-hidden" id="worldControls" style="display: none;">
+          <div class="controls-card-header">
+            <div class="controls-card-header-left">
+              <span class="controls-title" id="labelWorldPanel">Origin Countries</span>
+              <span class="year-badge" id="worldCountBadge">182</span>
+            </div>
+            <button class="panel-collapse-btn" id="btnHideWorldPanel" type="button" title="Hide menu"
+              aria-label="Hide menu" style="display: none;">
+              <span class="collapse-icon">◀</span>
+              <span class="collapse-text" id="labelHideWorld">Hide</span>
+            </button>
+          </div>
+
+          <!-- Visa Filter & Explainer -->
+          <div class="control-row-stacked">
+            <div class="control-label-row">
+              <span class="control-label" id="labelVisaFilter">Visa Category</span>
+              <button class="visa-guide-toggle-btn" id="btnVisaGuideToggle" type="button" aria-expanded="true"
+                title="Toggle visa details">
+                <span class="guide-toggle-icon">ℹ️</span>
+                <span id="labelVisaGuideToggle">Visa Guide</span>
+              </button>
+            </div>
+            <div class="visa-filter-group" id="visaFilterGroup">
+              <button class="visa-btn active" data-visa="all" id="btnVisaAll"
+                title="All international student visas (D-2 + D-4)">All (D2/D4)</button>
+              <button class="visa-btn" data-visa="d2" id="btnVisaD2" title="D-2 Degree Program Visa">D-2 Degree</button>
+              <button class="visa-btn" data-visa="d4" id="btnVisaD4" title="D-4 Language Training Visa">D-4
+                Language</button>
+            </div>
+
+            <!-- Visa Explainer Card -->
+            <div class="visa-guide-card" id="visaGuideCard">
+              <div class="visa-guide-item" id="guideItemD2" data-visa="d2">
+                <div class="visa-tag-badge d2-badge">D-2</div>
+                <div class="visa-guide-body">
+                  <div class="visa-guide-name" id="d2GuideName">Degree Programs (67.0%)</div>
+                  <div class="visa-guide-desc" id="d2GuideDesc">Bachelor's, Master's, Doctoral & exchange programs at
+                    universities.</div>
+                </div>
+              </div>
+              <div class="visa-guide-item" id="guideItemD4" data-visa="d4">
+                <div class="visa-tag-badge d4-badge">D-4</div>
+                <div class="visa-guide-body">
+                  <div class="visa-guide-name" id="d4GuideName">Language & Training (33.0%)</div>
+                  <div class="visa-guide-desc" id="d4GuideDesc">Non-degree Korean language institutes (어학당) & general
+                    training.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Continent Filter -->
+          <div class="control-row-stacked">
+            <span class="control-label" id="labelContinentFilter">Filter by Continent</span>
+            <select id="continentSelect" class="scale-select-full">
+              <option value="all" id="optContAll">All Continents (182)</option>
+              <option value="Asia" id="optContAsia">Asia (44)</option>
+              <option value="Europe" id="optContEurope">Europe (45)</option>
+              <option value="North America" id="optContNA">North America (2)</option>
+              <option value="South America" id="optContSA">South America (31)</option>
+              <option value="Africa" id="optContAfrica">Africa (52)</option>
+              <option value="Oceania" id="optContOceania">Oceania (8)</option>
+            </select>
+          </div>
+
+          <!-- Quick Jump to Country -->
+          <div class="control-row-stacked">
+            <span class="control-label" id="labelCountryFinder">Search & Jump to Country</span>
+            <select id="countrySelect" class="scale-select-full" aria-label="Search and select country">
+              <option value="" id="optSelectPrompt">— Choose or search a country —</option>
+            </select>
+          </div>
+
+          <!-- Top Origins Mini-Leaderboard -->
+          <div class="control-row-stacked">
+            <span class="control-label" id="labelTopOrigins">Top Origin Countries</span>
+            <div class="top-countries-list" id="topCountriesList">
+              <!-- Populated via JS -->
+            </div>
+          </div>
+
+          <!-- Student Volume (Color Temperature) Legend (Unified Inside Origin Countries Box) -->
+          <div class="control-row-stacked world-legend-section" id="worldLegendSection">
+            <span class="control-label" id="worldLegendTitle">Student Volume (Color Temperature)</span>
+            <div class="world-legend-box" aria-label="Color temperature scale">
+              <div class="world-temp-bar-wrap">
+                <div class="world-temp-bar"></div>
+                <div class="world-temp-labels">
+                  <span id="tempHotLabel">Most (50k+)</span>
+                  <span id="tempCoolLabel">Fewest (&lt;100)</span>
+                </div>
+              </div>
+              <div class="world-legend-grid">
+                <div class="world-legend-item">
+                  <span class="world-circle-sample sample-hot"></span>
+                  <span class="world-legend-label">50k+ (Red)</span>
+                </div>
+                <div class="world-legend-item">
+                  <span class="world-circle-sample sample-warm"></span>
+                  <span class="world-legend-label">10k–50k (Orange)</span>
+                </div>
+                <div class="world-legend-item">
+                  <span class="world-circle-sample sample-amber"></span>
+                  <span class="world-legend-label">3k–10k (Amber)</span>
+                </div>
+                <div class="world-legend-item">
+                  <span class="world-circle-sample sample-teal"></span>
+                  <span class="world-legend-label">1k–3k (Teal)</span>
+                </div>
+                <div class="world-legend-item">
+                  <span class="world-circle-sample sample-cool"></span>
+                  <span class="world-legend-label">&lt;1k (Blue)</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="control-row">
-          <span class="control-label" id="labelSpeed">Speed</span>
-          <div class="speed-selector">
-            <button class="speed-btn" data-speed="0.5">0.5x</button>
-            <button class="speed-btn active" data-speed="1">1x</button>
-            <button class="speed-btn" data-speed="2">2x</button>
+        <!-- Map Legend Section (Only corresponding legend is visible per map view) -->
+        <div class="sidebar-legends" id="sidebarLegends">
+          <div class="sidebar-legends-header">
+            <span class="sidebar-legends-title" id="sidebarLegendsTitle">Map Legend</span>
+          </div>
+
+          <!-- Language Legend (Linguistic Groups) -->
+          <div class="sidebar-legend-card" id="languageControls" data-legend="language" style="display: none;">
+            <div class="legend-card-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="legend-card-title-group">
+                <span class="legend-mode-icon">🗣️</span>
+                <span class="legend-card-title" id="labelLanguagePanel">Linguistic Groups</span>
+                <span class="year-badge" id="langCountBadge">22</span>
+              </div>
+              <div class="legend-card-header-right">
+                <span class="legend-active-badge" id="badgeLanguageLegend" style="display: none;">Active</span>
+                <span class="legend-chevron">▾</span>
+              </div>
+            </div>
+            <div class="legend-card-content">
+              <div class="control-row-stacked">
+                <input type="text" id="languageSearchInput" class="language-search-input"
+                  placeholder="Search language or country..." aria-label="Search language">
+              </div>
+              <div class="language-legend-scroll" id="languageLegendList" role="list">
+                <!-- Populated dynamically via JS -->
+              </div>
+            </div>
           </div>
         </div>
+      </aside>
 
-        <div class="control-row-stacked">
-          <span class="control-label" id="labelCohortScale">Cohort Scale</span>
-          <select id="unitScale" class="scale-select-full">
-            <option value="50" selected id="optScale50">1 circle = 50 students</option>
-            <option value="100" id="optScale100">1 circle = 100 students</option>
-            <option value="25" id="optScale25">1 circle = 25 students (dense)</option>
-          </select>
+      <!-- Map Container (Clean, unobstructed map canvas) -->
+      <div class="map-container">
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loadingOverlay">
+          <div class="loading-spinner"></div>
+          <div class="loading-text" id="loadingText">Loading geographic dataset...</div>
         </div>
 
-        <div class="legend-box">
-          <span class="circle-icon"></span>
-          <span id="legendText">1 circle = 50 students</span>
-        </div>
-      </div>
+        <!-- Leaflet Interactive Zoomable Map -->
+        <div id="chart" role="region" aria-label="Interactive map of international students in South Korea"></div>
 
-      <!-- World Origin Countries Controls Panel (Floating on Left for World Mode) -->
-      <div class="map-left-controls world-controls" id="worldControls" style="display: none;">
-        <div class="controls-card-header">
-          <span class="controls-title" id="labelWorldPanel">Origin Countries</span>
-          <span class="year-badge" id="worldCountBadge">182</span>
-        </div>
+        <!-- Floating Button to Show Menu when Hidden (Safe fallback, hidden) -->
+        <button class="map-panel-toggle-floating" id="btnShowMapPanel" type="button" aria-label="Show menu panel"
+          style="display: none !important;">
+          <span class="panel-toggle-floating-icon">☰</span>
+          <span class="panel-toggle-floating-text" id="labelShowPanel">Show Menu</span>
+        </button>
 
-        <!-- Visa Filter -->
-        <div class="control-row-stacked">
-          <span class="control-label" id="labelVisaFilter">Visa Category</span>
-          <div class="visa-filter-group" id="visaFilterGroup">
-            <button class="visa-btn active" data-visa="all" id="btnVisaAll">All (D2+D4)</button>
-            <button class="visa-btn" data-visa="d2" id="btnVisaD2">D-2 Degree</button>
-            <button class="visa-btn" data-visa="d4" id="btnVisaD4">D-4 Language</button>
-          </div>
+        <!-- Data Source Attribution (Bottom Right) -->
+        <div class="map-source-tag" id="mapSourceTag">
+          Source: Higher Education in Korea / Ministry of Education
         </div>
-
-        <!-- Continent Filter -->
-        <div class="control-row-stacked">
-          <span class="control-label" id="labelContinentFilter">Filter by Continent</span>
-          <select id="continentSelect" class="scale-select-full">
-            <option value="all" id="optContAll">All Continents (182)</option>
-            <option value="Asia" id="optContAsia">Asia (44)</option>
-            <option value="Europe" id="optContEurope">Europe (45)</option>
-            <option value="North America" id="optContNA">North America (2)</option>
-            <option value="South America" id="optContSA">South America (31)</option>
-            <option value="Africa" id="optContAfrica">Africa (52)</option>
-            <option value="Oceania" id="optContOceania">Oceania (8)</option>
-          </select>
-        </div>
-
-        <!-- Top Origins Mini-Leaderboard -->
-        <div class="control-row-stacked">
-          <span class="control-label" id="labelTopOrigins">Top Origin Countries</span>
-          <div class="top-countries-list" id="topCountriesList">
-            <!-- Populated via JS -->
-          </div>
-        </div>
-
-        <!-- World Circle Legend -->
-        <div class="legend-box world-legend-box">
-          <div class="world-legend-item">
-            <span class="world-circle-sample sample-lg"></span>
-            <span class="world-legend-label" id="legLg">50k+</span>
-          </div>
-          <div class="world-legend-item">
-            <span class="world-circle-sample sample-md"></span>
-            <span class="world-legend-label" id="legMd">5k–20k</span>
-          </div>
-          <div class="world-legend-item">
-            <span class="world-circle-sample sample-sm"></span>
-            <span class="world-legend-label" id="legSm">&lt;1k</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Data Source Attribution (Bottom Right) -->
-      <div class="map-source-tag" id="mapSourceTag">
-        Source: Higher Education in Korea / Ministry of Education
       </div>
     </div>
   </div>
 
   <div class="tooltip" id="tooltip"></div>
 
-  <!-- Data & Modular Logic with Cache Busting -->
-  <script src="data.js?v=20261008-v2"></script>
-  <script src="app.js?v=20261008-v2"></script>
+  <!-- Data & Modular Logic with Cache Busting (Deferred Non-blocking Execution) -->
+  <script defer src="world_countries.js?v=20261015-alaskaslide1"></script>
+  <script defer src="data.js?v=20261014-stroke1"></script>
+  <script defer src="app.js?v=20261015-unifiedkorealegend4"></script>
 </body>
 
 </html>
