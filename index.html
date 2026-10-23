@@ -22,10 +22,20 @@
     href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600..900&family=JetBrains+Mono:wght@600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
     rel="stylesheet">
 
-  <!-- Leaflet & D3.js (Non-blocking Deferred Execution) -->
+  <!-- Leaflet, D3.js & Three.js 3D Engine (Non-blocking Deferred Execution) -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script defer src="three.min.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      if (typeof THREE === "undefined") {
+        var s = document.createElement("script");
+        s.src = "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js";
+        document.head.appendChild(s);
+      }
+    });
+  </script>
 
   <!-- Critical Core Layout & Rendering Guarantee with Hardware Compositing & CSS Containment -->
   <style>
@@ -414,8 +424,57 @@
           <div class="loading-text" id="loadingText">Loading geographic dataset...</div>
         </div>
 
-        <!-- Leaflet Interactive Zoomable Map -->
+        <!-- Leaflet Interactive Zoomable Map (Domestic Korea & Language Modes) -->
         <div id="chart" role="region" aria-label="Interactive map of international students in South Korea"></div>
+
+        <!-- 3D Cosmic Globe Container (Floating in Space for Country of Origin 2025 Data) -->
+        <div id="globeContainer" class="globe-container" role="region"
+          aria-label="3D Globe of international student origins arriving in South Korea" style="display: none;">
+          <canvas id="globeCanvas"></canvas>
+
+          <!-- Floating Space HUD Controls for 3D Globe -->
+          <div class="globe-floating-hud">
+            <div class="globe-hud-pill">
+              <span class="globe-hud-dot" aria-hidden="true"></span>
+              <span class="globe-hud-title" id="globeHudTitle">3D Cosmic Flow</span>
+              <span class="globe-hud-sub" id="globeHudSub">189 Countries → South Korea</span>
+            </div>
+
+            <div class="globe-hud-btn-group">
+              <button class="globe-hud-btn active" id="btnGlobeAutoRotate" type="button" title="Toggle Auto-Rotation"
+                aria-label="Toggle Auto-Rotation">
+                <span class="globe-btn-icon">🔄</span>
+                <span class="globe-btn-text" id="labelGlobeRotate">Rotate</span>
+              </button>
+              <button class="globe-hud-btn" id="btnGlobeResetView" type="button" title="Focus on South Korea"
+                aria-label="Focus on South Korea">
+                <span class="globe-btn-icon">🎯</span>
+                <span class="globe-btn-text" id="labelGlobeReset">Focus Korea</span>
+              </button>
+              <div class="globe-zoom-btns">
+                <button class="globe-zoom-btn" id="btnGlobeZoomIn" type="button" title="Zoom in"
+                  aria-label="Zoom in">+</button>
+                <button class="globe-zoom-btn" id="btnGlobeZoomOut" type="button" title="Zoom out"
+                  aria-label="Zoom out">−</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Hint at bottom -->
+          <div class="globe-interaction-hint" id="globeHint">
+            <span>🖱️ Drag to rotate sphere</span> • <span>Scroll to zoom</span> • <span>Hover/Click origin countries</span>
+          </div>
+
+          <!-- Dynamic Korea Focal Destination Floating Tag -->
+          <div class="korea-destination-badge" id="koreaDestinationBadge">
+            <span class="korea-badge-flag">🇰🇷</span>
+            <div class="korea-badge-info">
+              <span class="korea-badge-title">Destination Hub</span>
+              <span class="korea-badge-sub">South Korea (대한민국)</span>
+            </div>
+            <span class="korea-pulse-dot" aria-hidden="true"></span>
+          </div>
+        </div>
 
         <!-- Floating Button to Show Menu when Hidden (Safe fallback, hidden) -->
         <button class="map-panel-toggle-floating" id="btnShowMapPanel" type="button" aria-label="Show menu panel"
@@ -435,9 +494,10 @@
   <div class="tooltip" id="tooltip"></div>
 
   <!-- Data & Modular Logic with Cache Busting (Deferred Non-blocking Execution) -->
-  <script defer src="world_countries.js?v=20261016-data2025v1"></script>
-  <script defer src="data.js?v=20261016-data2025v1"></script>
-  <script defer src="app.js?v=20261016-data2025v1"></script>
+  <script defer src="world_countries.js?v=20261023-globe3dv1"></script>
+  <script defer src="data.js?v=20261023-globe3dv1"></script>
+  <script defer src="globe3d.js?v=20261023-globe3dv1"></script>
+  <script defer src="app.js?v=20261023-globe3dv1"></script>
 </body>
 
 </html>

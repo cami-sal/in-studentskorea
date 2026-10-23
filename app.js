@@ -1655,7 +1655,11 @@ document.addEventListener("DOMContentLoaded", () => {
       d3.selectAll(".top-country-item").classed("active", false);
 
       if (resetCamera) {
-        map.flyTo([24, 20], 2.6, { duration: 1.5, easeLinearity: 0.35 });
+        if (window.Globe3D && window.Globe3D.getIsVisible()) {
+          window.Globe3D.focusOnKorea(true);
+        } else {
+          map.flyTo([24, 20], 2.6, { duration: 1.5, easeLinearity: 0.35 });
+        }
       }
     }
 
@@ -1684,6 +1688,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!cData) return;
 
       selectedCountryName = cData.country_en;
+
+      if (window.Globe3D && window.Globe3D.getIsVisible()) {
+        window.Globe3D.focusCountry(cData.country_en);
+      }
 
       const count = getCountryCount(cData);
       const thermal = getCountryThermalStyle(count);
@@ -2365,6 +2373,17 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.remove("mode-language");
         clearSelectedCountry(false);
         lastRenderedYearInt = -1;
+
+        // Hide 3D Globe and show 2D Korea map
+        if (window.Globe3D) {
+          window.Globe3D.hide();
+        }
+        const globeEl = document.getElementById("globeContainer");
+        if (globeEl) globeEl.style.display = "none";
+        const chartEl = document.getElementById("chart");
+        if (chartEl) chartEl.style.display = "block";
+        map.invalidateSize();
+
         map.setMinZoom(5.6);
         map.setMaxBounds([
           [30.5, 121.5],
@@ -2407,44 +2426,34 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.remove("mode-language");
         hideLanguageControls();
         switchControlsPanel("koreaControls", "worldControls");
-        map.setMinZoom(2.2);
-        map.setMaxBounds([
-          [-82, -260],
-          [82, 260]
-        ]);
 
-        mapLayer.style("opacity", "0");
-        outerBorderLayer.style("opacity", "0");
-        circleLayer.style("opacity", "0");
-        labelLayer.style("opacity", "0");
-        setTimeout(() => {
-          if (currentMode !== "korea") {
-            mapLayer.style("display", "none");
-            outerBorderLayer.style("display", "none");
-            circleLayer.style("display", "none");
-            labelLayer.style("display", "none");
-          }
-        }, 420);
+        // Hide 2D Leaflet Map and display 3D Cosmic Globe floating in space
+        const chartEl = document.getElementById("chart");
+        if (chartEl) chartEl.style.display = "none";
+        const globeEl = document.getElementById("globeContainer");
+        if (globeEl) globeEl.style.display = "block";
 
-        if (worldCountryGeoLayer && !map.hasLayer(worldCountryGeoLayer)) {
-          worldCountryGeoLayer.addTo(map);
+        if (window.Globe3D) {
+          window.Globe3D.show(data, currentLang);
+          window.Globe3D.setVisaFilter(selectedVisa);
+          window.Globe3D.setContinentFilter(selectedContinent);
         }
-        if (worldMarkersLayer && map.hasLayer(worldMarkersLayer)) {
-          map.removeLayer(worldMarkersLayer);
-        }
+
         populateCountrySelect();
-        updateWorldCountriesThermalStyle();
-
-        if (prefersReducedMotion) {
-          map.setView([24, 20], 2.6);
-          renderWorldOrigins();
-        } else {
-          map.flyTo([24, 20], 2.6, { duration: 1.5, easeLinearity: 0.35 });
-          renderWorldOrigins();
-        }
+        renderWorldOrigins();
       } else if (mode === "language") {
         document.body.classList.add("mode-language");
         clearSelectedCountry(false);
+
+        // Hide 3D Globe and show 2D Map for Linguistic Groups
+        if (window.Globe3D) {
+          window.Globe3D.hide();
+        }
+        const globeEl = document.getElementById("globeContainer");
+        if (globeEl) globeEl.style.display = "none";
+        const chartEl = document.getElementById("chart");
+        if (chartEl) chartEl.style.display = "block";
+        map.invalidateSize();
 
         // Hide left sidebar panels (korea & world) and floating button
         const kc = document.getElementById("koreaControls");
@@ -2545,6 +2554,9 @@ document.addEventListener("DOMContentLoaded", () => {
       selectedVisa = this.dataset.visa;
       updateVisaGuideHighlight(selectedVisa);
       renderWorldOrigins();
+      if (window.Globe3D && window.Globe3D.getIsVisible()) {
+        window.Globe3D.setVisaFilter(selectedVisa);
+      }
     });
 
     // Toggle Visa Explainer Guide Card
@@ -2559,6 +2571,9 @@ document.addEventListener("DOMContentLoaded", () => {
     d3.select("#continentSelect").on("change", function () {
       selectedContinent = this.value;
       renderWorldOrigins();
+      if (window.Globe3D && window.Globe3D.getIsVisible()) {
+        window.Globe3D.setContinentFilter(selectedContinent);
+      }
     });
 
     // Language switcher handler
@@ -2625,6 +2640,11 @@ document.addEventListener("DOMContentLoaded", () => {
       d3.select("#labelShowPanel").text(t.showMenu);
       d3.select("#labelHideKorea").text(t.hideMenu);
       d3.select("#labelHideWorld").text(t.hideMenu);
+
+      // 3D Globe HUD labels
+      d3.select("#globeHudTitle").text(lang === "ko" ? "3D 글로벌 유입" : "3D Cosmic Flow");
+      d3.select("#labelGlobeRotate").text(lang === "ko" ? "회전" : "Rotate");
+      d3.select("#labelGlobeReset").text(lang === "ko" ? "한국 중심" : "Focus Korea");
 
       // Language Mode Panel & Tabs texts
       d3.select("#modeLanguageTitle").text(t.modeLanguage);

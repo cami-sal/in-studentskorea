@@ -5,13 +5,16 @@ An interactive geographic point accumulation map visualizing the growth and geog
 ## 📁 Project Structure
 
 ```text
-├── index.html       # Primary HTML entry point with dual-mode support & critical style fallbacks
-├── style.css        # Full stylesheet (typography, responsive controls, cards & circle animations)
-├── app.js           # D3.js + Leaflet logic (Korea accumulation timeline & World origin mapping)
+├── index.html       # Primary HTML entry point with 3D Globe & 2D maps
+├── style.css        # Full stylesheet (typography, 3D HUD controls, cards & circle animations)
+├── globe3d.js       # 3D Cosmic Globe engine (Three.js Earth sphere, Great-Circle pulse arcs)
+├── app.js           # D3.js + Leaflet logic (Korea accumulation timeline & interactive controls)
+├── three.min.js     # Three.js 3D library (bundled local offline copy with CDN fallback)
+├── world_countries.js # World country vector boundaries for 3D globe & 2D maps
 ├── data.js          # Synchronous data wrapper (embedded window data for zero CORS issues)
-├── data.json        # GeoJSON boundaries, historical student series & 2024 country visa stats
+├── data.json        # GeoJSON boundaries, historical student series & 2025 country visa stats
 ├── favicon.svg      # Custom student graduation hat vector favicon
-├── student_visas_by_country_D2_D4_2024.json  # 2024 international student visa dataset
+├── extranjeros_por_pais_2025.json  # 2025 international student dataset
 └── README.md        # Documentation and deployment instructions
 ```
 
@@ -19,9 +22,9 @@ An interactive geographic point accumulation map visualizing the growth and geog
 
 ## 🚀 How to Visualize on GitHub (GitHub Pages)
 
-When you upload HTML/JS to a GitHub repository, GitHub displays the **source code** by default. To make it render as a live interactive website:
+To make it render as a live interactive website with the 3D Cosmic Globe and all 2025 data:
 
-1. **Push the repository** to GitHub (including `index.html`, `style.css`, `data.json`, and `app.js`).
+1. **Upload / Push all project files to GitHub** (`index.html`, `style.css`, `globe3d.js`, `app.js`, `world_countries.js`, `data.js`, `data.json`, `three.min.js`).
 2. Go to your repository on **GitHub.com**.
 3. Click on **Settings** (top right gear icon).
 4. In the left sidebar, click on **Pages**.

@@ -1380,6 +1380,233 @@ body[data-active-mode="language"] #worldControls {
   transform: translateZ(0);
 }
 
+/* 3D Editorial Cartographic Globe Container (Floating in Studio Light for Country of Origin 2025 Data) */
+#globeContainer {
+  width: 100%;
+  height: 770px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: radial-gradient(circle at 50% 48%, #fcfbf7 0%, #f4efe4 58%, #e8e0ce 100%);
+  z-index: 2;
+  display: none;
+  contain: strict;
+  transform: translateZ(0);
+  box-shadow: inset 0 0 45px rgba(92, 88, 80, 0.08);
+  user-select: none;
+}
+
+#globeCanvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  outline: none;
+  cursor: grab;
+}
+
+#globeCanvas:active {
+  cursor: grabbing;
+}
+
+/* Floating Space HUD Controls for 3D Globe - Editorial Ivory & Ink Style */
+.globe-floating-hud {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.globe-hud-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 9999px;
+  padding: 6px 14px;
+  box-shadow: 0 4px 14px rgba(18, 18, 17, 0.08);
+}
+
+.globe-hud-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 8px rgba(29, 78, 216, 0.6);
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+.globe-hud-title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.globe-hud-sub {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--muted);
+  border-left: 1px solid var(--line);
+  padding-left: 8px;
+}
+
+.globe-hud-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.globe-hud-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 9999px;
+  padding: 6px 13px;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(18, 18, 17, 0.08);
+}
+
+.globe-hud-btn:hover {
+  background: var(--surface-subtle);
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: 0 6px 18px rgba(18, 18, 17, 0.12);
+  transform: translateY(-1px);
+}
+
+.globe-hud-btn.active {
+  background: #eff6ff;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.globe-zoom-btns {
+  display: flex;
+  background: #ffffff;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 9999px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(18, 18, 17, 0.08);
+}
+
+.globe-zoom-btn {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.globe-zoom-btn:first-child {
+  border-right: 1px solid var(--line);
+}
+
+.globe-zoom-btn:hover {
+  background: var(--surface-subtle);
+  color: var(--primary);
+}
+
+/* Floating Hint at Bottom */
+.globe-interaction-hint {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1.5px solid var(--line);
+  padding: 6px 16px;
+  border-radius: 9999px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  z-index: 10;
+  box-shadow: 0 4px 16px rgba(18, 18, 17, 0.08);
+}
+
+/* Dynamic Korea Focal Destination Floating Tag - Editorial Ink Style */
+.korea-destination-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 6px 12px;
+  box-shadow: 0 4px 18px rgba(18, 18, 17, 0.12);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.22s ease-out;
+  white-space: nowrap;
+}
+
+.korea-badge-flag {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.korea-badge-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.korea-badge-title {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.korea-badge-sub {
+  font-family: var(--font-display);
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.korea-pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 8px rgba(29, 78, 216, 0.6);
+  margin-left: 2px;
+  animation: pulseGlow 1.4s infinite ease-in-out;
+}
+
 /* Base Map Styling & Smooth GPU Transitions */
 .leaflet-tile-pane {
   opacity: 0.95;
