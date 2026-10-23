@@ -1,0 +1,6056 @@
+{
+  "source": "2025 extranjeros por pais y por universidad.numbers",
+  "sheet": "국가, 지역별",
+  "reference_date": "2025-04-01",
+  "unit": "students",
+  "records": [
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "가이아나",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "과테말라",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "masters": {
+        "humanities_social_sciences": 5,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 20
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "니카라과",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 9
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "도미니카공화국",
+      "language_training": 7,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "masters": {
+        "humanities_social_sciences": 8,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 11
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 24
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "도미니카연방",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "바베이도스",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "바하마",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 10
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "베네수엘라",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 8
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 1,
+      "total": 25
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "벨리즈",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "볼리비아",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 10
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 2,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 5
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 4,
+      "total": 22
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "브라질",
+      "language_training": 110,
+      "undergraduate": {
+        "humanities_social_sciences": 61,
+        "engineering": 7,
+        "natural_sciences": 3,
+        "arts_physical_education": 4,
+        "medicine": 0,
+        "total": 75
+      },
+      "masters": {
+        "humanities_social_sciences": 35,
+        "engineering": 6,
+        "natural_sciences": 1,
+        "arts_physical_education": 2,
+        "medicine": 1,
+        "total": 45
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 9
+      },
+      "other_training": 127,
+      "total": 366
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "사우스조지아 사우스샌드위치 제도",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "세인트 루시아",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "세인트 빈센트 그레나딘",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "세인트 키츠 네비스",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "아르헨티나",
+      "language_training": 12,
+      "undergraduate": {
+        "humanities_social_sciences": 7,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 10
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 20,
+      "total": 49
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "아이티",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "에콰도르",
+      "language_training": 13,
+      "undergraduate": {
+        "humanities_social_sciences": 10,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 4,
+        "medicine": 0,
+        "total": 20
+      },
+      "masters": {
+        "humanities_social_sciences": 13,
+        "engineering": 7,
+        "natural_sciences": 5,
+        "arts_physical_education": 2,
+        "medicine": 1,
+        "total": 28
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 10,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "other_training": 12,
+      "total": 85
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "엘살바도르",
+      "language_training": 6,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "masters": {
+        "humanities_social_sciences": 9,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 11
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 1,
+      "total": 25
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "온두라스",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 5
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 0,
+      "total": 15
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "우루과이",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 9
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "자메이카",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 7
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "칠레",
+      "language_training": 40,
+      "undergraduate": {
+        "humanities_social_sciences": 19,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 5,
+        "medicine": 0,
+        "total": 30
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 4,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 14
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "other_training": 19,
+      "total": 107
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "코스타리카",
+      "language_training": 14,
+      "undergraduate": {
+        "humanities_social_sciences": 6,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 2,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 10
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 1,
+      "total": 33
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "콜롬비아",
+      "language_training": 71,
+      "undergraduate": {
+        "humanities_social_sciences": 25,
+        "engineering": 10,
+        "natural_sciences": 4,
+        "arts_physical_education": 5,
+        "medicine": 0,
+        "total": 44
+      },
+      "masters": {
+        "humanities_social_sciences": 22,
+        "engineering": 6,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 31
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 4,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "other_training": 26,
+      "total": 178
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "쿠바",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 6
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "터크스 케이커스 제도",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "트리니다드토바고",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 10
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "파나마",
+      "language_training": 8,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 9
+      },
+      "masters": {
+        "humanities_social_sciences": 4,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 0,
+      "total": 26
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "파라과이",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 9,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 15
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 9
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 27
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "페루",
+      "language_training": 36,
+      "undergraduate": {
+        "humanities_social_sciences": 24,
+        "engineering": 5,
+        "natural_sciences": 3,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 35
+      },
+      "masters": {
+        "humanities_social_sciences": 12,
+        "engineering": 8,
+        "natural_sciences": 4,
+        "arts_physical_education": 1,
+        "medicine": 1,
+        "total": 26
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 71,
+      "total": 171
+    },
+    {
+      "year": 2025,
+      "continent": "남아메리카",
+      "country_region": "푸에르토리코",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "북아메리카",
+      "country_region": "그레나다",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 2,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "북아메리카",
+      "country_region": "멕시코",
+      "language_training": 123,
+      "undergraduate": {
+        "humanities_social_sciences": 28,
+        "engineering": 18,
+        "natural_sciences": 10,
+        "arts_physical_education": 7,
+        "medicine": 0,
+        "total": 63
+      },
+      "masters": {
+        "humanities_social_sciences": 41,
+        "engineering": 10,
+        "natural_sciences": 4,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 57
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 9,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 14
+      },
+      "other_training": 235,
+      "total": 492
+    },
+    {
+      "year": 2025,
+      "continent": "북아메리카",
+      "country_region": "미국",
+      "language_training": 481,
+      "undergraduate": {
+        "humanities_social_sciences": 553,
+        "engineering": 73,
+        "natural_sciences": 87,
+        "arts_physical_education": 64,
+        "medicine": 8,
+        "total": 785
+      },
+      "masters": {
+        "humanities_social_sciences": 299,
+        "engineering": 38,
+        "natural_sciences": 14,
+        "arts_physical_education": 18,
+        "medicine": 9,
+        "total": 378
+      },
+      "doctoral": {
+        "humanities_social_sciences": 88,
+        "engineering": 29,
+        "natural_sciences": 21,
+        "arts_physical_education": 15,
+        "medicine": 7,
+        "total": 160
+      },
+      "other_training": 1527,
+      "total": 3331
+    },
+    {
+      "year": 2025,
+      "continent": "북아메리카",
+      "country_region": "캐나다",
+      "language_training": 59,
+      "undergraduate": {
+        "humanities_social_sciences": 169,
+        "engineering": 21,
+        "natural_sciences": 28,
+        "arts_physical_education": 22,
+        "medicine": 5,
+        "total": 245
+      },
+      "masters": {
+        "humanities_social_sciences": 74,
+        "engineering": 10,
+        "natural_sciences": 11,
+        "arts_physical_education": 6,
+        "medicine": 11,
+        "total": 112
+      },
+      "doctoral": {
+        "humanities_social_sciences": 28,
+        "engineering": 14,
+        "natural_sciences": 7,
+        "arts_physical_education": 5,
+        "medicine": 12,
+        "total": 66
+      },
+      "other_training": 177,
+      "total": 659
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "네팔",
+      "language_training": 152,
+      "undergraduate": {
+        "humanities_social_sciences": 8370,
+        "engineering": 1816,
+        "natural_sciences": 656,
+        "arts_physical_education": 253,
+        "medicine": 0,
+        "total": 11095
+      },
+      "masters": {
+        "humanities_social_sciences": 1072,
+        "engineering": 111,
+        "natural_sciences": 49,
+        "arts_physical_education": 17,
+        "medicine": 0,
+        "total": 1249
+      },
+      "doctoral": {
+        "humanities_social_sciences": 194,
+        "engineering": 33,
+        "natural_sciences": 49,
+        "arts_physical_education": 1,
+        "medicine": 5,
+        "total": 282
+      },
+      "other_training": 6,
+      "total": 12784
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "대만",
+      "language_training": 599,
+      "undergraduate": {
+        "humanities_social_sciences": 316,
+        "engineering": 48,
+        "natural_sciences": 72,
+        "arts_physical_education": 75,
+        "medicine": 19,
+        "total": 530
+      },
+      "masters": {
+        "humanities_social_sciences": 258,
+        "engineering": 10,
+        "natural_sciences": 8,
+        "arts_physical_education": 52,
+        "medicine": 2,
+        "total": 330
+      },
+      "doctoral": {
+        "humanities_social_sciences": 22,
+        "engineering": 8,
+        "natural_sciences": 5,
+        "arts_physical_education": 2,
+        "medicine": 2,
+        "total": 39
+      },
+      "other_training": 562,
+      "total": 2060
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "대한민국",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 30,
+      "total": 30
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "동티모르",
+      "language_training": 10,
+      "undergraduate": {
+        "humanities_social_sciences": 22,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 25
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 11
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 47
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "라오스",
+      "language_training": 88,
+      "undergraduate": {
+        "humanities_social_sciences": 35,
+        "engineering": 18,
+        "natural_sciences": 5,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 60
+      },
+      "masters": {
+        "humanities_social_sciences": 40,
+        "engineering": 4,
+        "natural_sciences": 6,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 51
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 4,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 7
+      },
+      "other_training": 6,
+      "total": 212
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "레바논",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 5,
+      "total": 15
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "마카오",
+      "language_training": 11,
+      "undergraduate": {
+        "humanities_social_sciences": 16,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 5,
+        "medicine": 0,
+        "total": 22
+      },
+      "masters": {
+        "humanities_social_sciences": 8,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 11
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 45
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "말레이시아",
+      "language_training": 168,
+      "undergraduate": {
+        "humanities_social_sciences": 181,
+        "engineering": 551,
+        "natural_sciences": 38,
+        "arts_physical_education": 81,
+        "medicine": 0,
+        "total": 851
+      },
+      "masters": {
+        "humanities_social_sciences": 60,
+        "engineering": 35,
+        "natural_sciences": 14,
+        "arts_physical_education": 9,
+        "medicine": 0,
+        "total": 118
+      },
+      "doctoral": {
+        "humanities_social_sciences": 14,
+        "engineering": 24,
+        "natural_sciences": 8,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 47
+      },
+      "other_training": 132,
+      "total": 1316
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "몰디브",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "몽골",
+      "language_training": 4491,
+      "undergraduate": {
+        "humanities_social_sciences": 3997,
+        "engineering": 1810,
+        "natural_sciences": 621,
+        "arts_physical_education": 540,
+        "medicine": 0,
+        "total": 6968
+      },
+      "masters": {
+        "humanities_social_sciences": 2291,
+        "engineering": 211,
+        "natural_sciences": 153,
+        "arts_physical_education": 90,
+        "medicine": 19,
+        "total": 2764
+      },
+      "doctoral": {
+        "humanities_social_sciences": 686,
+        "engineering": 55,
+        "natural_sciences": 69,
+        "arts_physical_education": 17,
+        "medicine": 11,
+        "total": 838
+      },
+      "other_training": 209,
+      "total": 15270
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "미얀마",
+      "language_training": 3691,
+      "undergraduate": {
+        "humanities_social_sciences": 1859,
+        "engineering": 1100,
+        "natural_sciences": 571,
+        "arts_physical_education": 243,
+        "medicine": 0,
+        "total": 3773
+      },
+      "masters": {
+        "humanities_social_sciences": 470,
+        "engineering": 44,
+        "natural_sciences": 22,
+        "arts_physical_education": 18,
+        "medicine": 2,
+        "total": 556
+      },
+      "doctoral": {
+        "humanities_social_sciences": 39,
+        "engineering": 25,
+        "natural_sciences": 19,
+        "arts_physical_education": 0,
+        "medicine": 3,
+        "total": 86
+      },
+      "other_training": 8,
+      "total": 8114
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "바레인",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 10
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "방글라데시",
+      "language_training": 205,
+      "undergraduate": {
+        "humanities_social_sciences": 1087,
+        "engineering": 931,
+        "natural_sciences": 31,
+        "arts_physical_education": 7,
+        "medicine": 0,
+        "total": 2056
+      },
+      "masters": {
+        "humanities_social_sciences": 416,
+        "engineering": 147,
+        "natural_sciences": 60,
+        "arts_physical_education": 8,
+        "medicine": 7,
+        "total": 638
+      },
+      "doctoral": {
+        "humanities_social_sciences": 107,
+        "engineering": 111,
+        "natural_sciences": 71,
+        "arts_physical_education": 1,
+        "medicine": 23,
+        "total": 313
+      },
+      "other_training": 6,
+      "total": 3218
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "베트남",
+      "language_training": 33629,
+      "undergraduate": {
+        "humanities_social_sciences": 20580,
+        "engineering": 7525,
+        "natural_sciences": 2954,
+        "arts_physical_education": 1570,
+        "medicine": 0,
+        "total": 32629
+      },
+      "masters": {
+        "humanities_social_sciences": 6066,
+        "engineering": 697,
+        "natural_sciences": 285,
+        "arts_physical_education": 269,
+        "medicine": 25,
+        "total": 7342
+      },
+      "doctoral": {
+        "humanities_social_sciences": 224,
+        "engineering": 434,
+        "natural_sciences": 167,
+        "arts_physical_education": 13,
+        "medicine": 56,
+        "total": 894
+      },
+      "other_training": 650,
+      "total": 75144
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "부탄",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 5
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 7
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "브루나이",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 6
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 41,
+      "total": 68
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "사우디아라비아",
+      "language_training": 23,
+      "undergraduate": {
+        "humanities_social_sciences": 11,
+        "engineering": 43,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 57
+      },
+      "masters": {
+        "humanities_social_sciences": 48,
+        "engineering": 5,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 56
+      },
+      "doctoral": {
+        "humanities_social_sciences": 3,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 6
+      },
+      "other_training": 0,
+      "total": 142
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "사이프러스",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "스리랑카",
+      "language_training": 223,
+      "undergraduate": {
+        "humanities_social_sciences": 164,
+        "engineering": 179,
+        "natural_sciences": 32,
+        "arts_physical_education": 13,
+        "medicine": 0,
+        "total": 388
+      },
+      "masters": {
+        "humanities_social_sciences": 267,
+        "engineering": 44,
+        "natural_sciences": 33,
+        "arts_physical_education": 2,
+        "medicine": 5,
+        "total": 351
+      },
+      "doctoral": {
+        "humanities_social_sciences": 13,
+        "engineering": 23,
+        "natural_sciences": 27,
+        "arts_physical_education": 0,
+        "medicine": 15,
+        "total": 78
+      },
+      "other_training": 8,
+      "total": 1048
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "시리아",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 4,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 4
+      },
+      "other_training": 1,
+      "total": 19
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "싱가포르",
+      "language_training": 56,
+      "undergraduate": {
+        "humanities_social_sciences": 70,
+        "engineering": 6,
+        "natural_sciences": 6,
+        "arts_physical_education": 16,
+        "medicine": 0,
+        "total": 98
+      },
+      "masters": {
+        "humanities_social_sciences": 21,
+        "engineering": 6,
+        "natural_sciences": 2,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 31
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 131,
+      "total": 318
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "아랍에미리트",
+      "language_training": 11,
+      "undergraduate": {
+        "humanities_social_sciences": 9,
+        "engineering": 11,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 21
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 4,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 10
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 5
+      },
+      "other_training": 0,
+      "total": 47
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "아르메니아",
+      "language_training": 6,
+      "undergraduate": {
+        "humanities_social_sciences": 9,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 14
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 4,
+      "total": 39
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "아제르바이잔",
+      "language_training": 39,
+      "undergraduate": {
+        "humanities_social_sciences": 27,
+        "engineering": 56,
+        "natural_sciences": 7,
+        "arts_physical_education": 5,
+        "medicine": 0,
+        "total": 95
+      },
+      "masters": {
+        "humanities_social_sciences": 28,
+        "engineering": 8,
+        "natural_sciences": 0,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 39
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 5,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "other_training": 89,
+      "total": 269
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "아프가니스탄",
+      "language_training": 11,
+      "undergraduate": {
+        "humanities_social_sciences": 17,
+        "engineering": 13,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 32
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 3,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 11
+      },
+      "doctoral": {
+        "humanities_social_sciences": 3,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 8
+      },
+      "other_training": 2,
+      "total": 64
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "예멘",
+      "language_training": 10,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 12,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 17
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 5
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 33
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "오만",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 5,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 10
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "요르단",
+      "language_training": 16,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 3,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "other_training": 2,
+      "total": 43
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "우즈베키스탄",
+      "language_training": 1285,
+      "undergraduate": {
+        "humanities_social_sciences": 7300,
+        "engineering": 3063,
+        "natural_sciences": 423,
+        "arts_physical_education": 200,
+        "medicine": 0,
+        "total": 10986
+      },
+      "masters": {
+        "humanities_social_sciences": 2441,
+        "engineering": 362,
+        "natural_sciences": 30,
+        "arts_physical_education": 129,
+        "medicine": 4,
+        "total": 2966
+      },
+      "doctoral": {
+        "humanities_social_sciences": 287,
+        "engineering": 50,
+        "natural_sciences": 16,
+        "arts_physical_education": 9,
+        "medicine": 4,
+        "total": 366
+      },
+      "other_training": 183,
+      "total": 15786
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "이라크",
+      "language_training": 7,
+      "undergraduate": {
+        "humanities_social_sciences": 6,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 11
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 2,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "other_training": 1,
+      "total": 26
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "이란",
+      "language_training": 115,
+      "undergraduate": {
+        "humanities_social_sciences": 51,
+        "engineering": 48,
+        "natural_sciences": 19,
+        "arts_physical_education": 35,
+        "medicine": 0,
+        "total": 153
+      },
+      "masters": {
+        "humanities_social_sciences": 21,
+        "engineering": 24,
+        "natural_sciences": 10,
+        "arts_physical_education": 6,
+        "medicine": 1,
+        "total": 62
+      },
+      "doctoral": {
+        "humanities_social_sciences": 8,
+        "engineering": 57,
+        "natural_sciences": 15,
+        "arts_physical_education": 0,
+        "medicine": 4,
+        "total": 84
+      },
+      "other_training": 5,
+      "total": 419
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "이스라엘",
+      "language_training": 16,
+      "undergraduate": {
+        "humanities_social_sciences": 11,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 15
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 12,
+      "total": 49
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "인도",
+      "language_training": 279,
+      "undergraduate": {
+        "humanities_social_sciences": 200,
+        "engineering": 110,
+        "natural_sciences": 25,
+        "arts_physical_education": 35,
+        "medicine": 0,
+        "total": 370
+      },
+      "masters": {
+        "humanities_social_sciences": 249,
+        "engineering": 106,
+        "natural_sciences": 40,
+        "arts_physical_education": 12,
+        "medicine": 8,
+        "total": 415
+      },
+      "doctoral": {
+        "humanities_social_sciences": 80,
+        "engineering": 300,
+        "natural_sciences": 171,
+        "arts_physical_education": 1,
+        "medicine": 10,
+        "total": 562
+      },
+      "other_training": 77,
+      "total": 1703
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "인도네시아",
+      "language_training": 309,
+      "undergraduate": {
+        "humanities_social_sciences": 475,
+        "engineering": 148,
+        "natural_sciences": 47,
+        "arts_physical_education": 108,
+        "medicine": 1,
+        "total": 779
+      },
+      "masters": {
+        "humanities_social_sciences": 296,
+        "engineering": 236,
+        "natural_sciences": 82,
+        "arts_physical_education": 13,
+        "medicine": 8,
+        "total": 635
+      },
+      "doctoral": {
+        "humanities_social_sciences": 45,
+        "engineering": 208,
+        "natural_sciences": 108,
+        "arts_physical_education": 1,
+        "medicine": 9,
+        "total": 371
+      },
+      "other_training": 352,
+      "total": 2446
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "일본",
+      "language_training": 1453,
+      "undergraduate": {
+        "humanities_social_sciences": 2035,
+        "engineering": 95,
+        "natural_sciences": 110,
+        "arts_physical_education": 249,
+        "medicine": 2,
+        "total": 2491
+      },
+      "masters": {
+        "humanities_social_sciences": 285,
+        "engineering": 11,
+        "natural_sciences": 7,
+        "arts_physical_education": 10,
+        "medicine": 0,
+        "total": 313
+      },
+      "doctoral": {
+        "humanities_social_sciences": 34,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 4,
+        "medicine": 1,
+        "total": 45
+      },
+      "other_training": 1093,
+      "total": 5395
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "중국",
+      "language_training": 5471,
+      "undergraduate": {
+        "humanities_social_sciences": 24736,
+        "engineering": 4092,
+        "natural_sciences": 2256,
+        "arts_physical_education": 6877,
+        "medicine": 3,
+        "total": 37964
+      },
+      "masters": {
+        "humanities_social_sciences": 12331,
+        "engineering": 922,
+        "natural_sciences": 573,
+        "arts_physical_education": 4614,
+        "medicine": 56,
+        "total": 18496
+      },
+      "doctoral": {
+        "humanities_social_sciences": 5279,
+        "engineering": 904,
+        "natural_sciences": 511,
+        "arts_physical_education": 4775,
+        "medicine": 116,
+        "total": 11585
+      },
+      "other_training": 3025,
+      "total": 76541
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "카자흐스탄",
+      "language_training": 362,
+      "undergraduate": {
+        "humanities_social_sciences": 607,
+        "engineering": 289,
+        "natural_sciences": 51,
+        "arts_physical_education": 61,
+        "medicine": 0,
+        "total": 1008
+      },
+      "masters": {
+        "humanities_social_sciences": 137,
+        "engineering": 53,
+        "natural_sciences": 6,
+        "arts_physical_education": 6,
+        "medicine": 2,
+        "total": 204
+      },
+      "doctoral": {
+        "humanities_social_sciences": 10,
+        "engineering": 15,
+        "natural_sciences": 13,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 40
+      },
+      "other_training": 183,
+      "total": 1797
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "카타르",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 6
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "캄보디아",
+      "language_training": 79,
+      "undergraduate": {
+        "humanities_social_sciences": 54,
+        "engineering": 92,
+        "natural_sciences": 9,
+        "arts_physical_education": 14,
+        "medicine": 0,
+        "total": 169
+      },
+      "masters": {
+        "humanities_social_sciences": 129,
+        "engineering": 62,
+        "natural_sciences": 14,
+        "arts_physical_education": 1,
+        "medicine": 5,
+        "total": 211
+      },
+      "doctoral": {
+        "humanities_social_sciences": 12,
+        "engineering": 26,
+        "natural_sciences": 15,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 55
+      },
+      "other_training": 13,
+      "total": 527
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "쿠웨이트",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "키르기즈",
+      "language_training": 651,
+      "undergraduate": {
+        "humanities_social_sciences": 669,
+        "engineering": 281,
+        "natural_sciences": 93,
+        "arts_physical_education": 53,
+        "medicine": 0,
+        "total": 1096
+      },
+      "masters": {
+        "humanities_social_sciences": 90,
+        "engineering": 12,
+        "natural_sciences": 2,
+        "arts_physical_education": 4,
+        "medicine": 0,
+        "total": 108
+      },
+      "doctoral": {
+        "humanities_social_sciences": 5,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "other_training": 138,
+      "total": 2002
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "타지키스탄",
+      "language_training": 120,
+      "undergraduate": {
+        "humanities_social_sciences": 92,
+        "engineering": 66,
+        "natural_sciences": 8,
+        "arts_physical_education": 12,
+        "medicine": 0,
+        "total": 178
+      },
+      "masters": {
+        "humanities_social_sciences": 29,
+        "engineering": 11,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 41
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "other_training": 12,
+      "total": 355
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "태국",
+      "language_training": 332,
+      "undergraduate": {
+        "humanities_social_sciences": 153,
+        "engineering": 62,
+        "natural_sciences": 45,
+        "arts_physical_education": 27,
+        "medicine": 0,
+        "total": 287
+      },
+      "masters": {
+        "humanities_social_sciences": 133,
+        "engineering": 29,
+        "natural_sciences": 12,
+        "arts_physical_education": 4,
+        "medicine": 0,
+        "total": 178
+      },
+      "doctoral": {
+        "humanities_social_sciences": 15,
+        "engineering": 15,
+        "natural_sciences": 9,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 41
+      },
+      "other_training": 106,
+      "total": 944
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "투르크메니스탄",
+      "language_training": 19,
+      "undergraduate": {
+        "humanities_social_sciences": 19,
+        "engineering": 9,
+        "natural_sciences": 2,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 32
+      },
+      "masters": {
+        "humanities_social_sciences": 12,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 18
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 70
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "튀르키예",
+      "language_training": 256,
+      "undergraduate": {
+        "humanities_social_sciences": 102,
+        "engineering": 73,
+        "natural_sciences": 18,
+        "arts_physical_education": 45,
+        "medicine": 0,
+        "total": 238
+      },
+      "masters": {
+        "humanities_social_sciences": 62,
+        "engineering": 17,
+        "natural_sciences": 5,
+        "arts_physical_education": 2,
+        "medicine": 2,
+        "total": 88
+      },
+      "doctoral": {
+        "humanities_social_sciences": 19,
+        "engineering": 26,
+        "natural_sciences": 13,
+        "arts_physical_education": 1,
+        "medicine": 2,
+        "total": 61
+      },
+      "other_training": 150,
+      "total": 793
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "파키스탄",
+      "language_training": 114,
+      "undergraduate": {
+        "humanities_social_sciences": 202,
+        "engineering": 147,
+        "natural_sciences": 17,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 369
+      },
+      "masters": {
+        "humanities_social_sciences": 239,
+        "engineering": 222,
+        "natural_sciences": 69,
+        "arts_physical_education": 8,
+        "medicine": 8,
+        "total": 546
+      },
+      "doctoral": {
+        "humanities_social_sciences": 87,
+        "engineering": 502,
+        "natural_sciences": 118,
+        "arts_physical_education": 1,
+        "medicine": 18,
+        "total": 726
+      },
+      "other_training": 46,
+      "total": 1801
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "팔레스타인",
+      "language_training": 8,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 2,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 1,
+      "total": 20
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "필리핀",
+      "language_training": 118,
+      "undergraduate": {
+        "humanities_social_sciences": 114,
+        "engineering": 178,
+        "natural_sciences": 34,
+        "arts_physical_education": 12,
+        "medicine": 0,
+        "total": 338
+      },
+      "masters": {
+        "humanities_social_sciences": 148,
+        "engineering": 39,
+        "natural_sciences": 28,
+        "arts_physical_education": 5,
+        "medicine": 4,
+        "total": 224
+      },
+      "doctoral": {
+        "humanities_social_sciences": 31,
+        "engineering": 50,
+        "natural_sciences": 42,
+        "arts_physical_education": 0,
+        "medicine": 5,
+        "total": 128
+      },
+      "other_training": 44,
+      "total": 852
+    },
+    {
+      "year": 2025,
+      "continent": "아시아",
+      "country_region": "홍콩",
+      "language_training": 186,
+      "undergraduate": {
+        "humanities_social_sciences": 219,
+        "engineering": 9,
+        "natural_sciences": 7,
+        "arts_physical_education": 107,
+        "medicine": 0,
+        "total": 342
+      },
+      "masters": {
+        "humanities_social_sciences": 70,
+        "engineering": 0,
+        "natural_sciences": 5,
+        "arts_physical_education": 19,
+        "medicine": 0,
+        "total": 94
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "other_training": 91,
+      "total": 721
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "가나",
+      "language_training": 17,
+      "undergraduate": {
+        "humanities_social_sciences": 6,
+        "engineering": 4,
+        "natural_sciences": 1,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 13
+      },
+      "masters": {
+        "humanities_social_sciences": 56,
+        "engineering": 39,
+        "natural_sciences": 12,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 108
+      },
+      "doctoral": {
+        "humanities_social_sciences": 39,
+        "engineering": 35,
+        "natural_sciences": 8,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 82
+      },
+      "other_training": 5,
+      "total": 225
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "가봉",
+      "language_training": 19,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 7,
+        "natural_sciences": 9,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 19
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 2,
+      "total": 43
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "감비아",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 13,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 16
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 16
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "기니",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 7
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "나미비아",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "나이지리아",
+      "language_training": 33,
+      "undergraduate": {
+        "humanities_social_sciences": 23,
+        "engineering": 22,
+        "natural_sciences": 8,
+        "arts_physical_education": 9,
+        "medicine": 0,
+        "total": 62
+      },
+      "masters": {
+        "humanities_social_sciences": 47,
+        "engineering": 31,
+        "natural_sciences": 20,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 99
+      },
+      "doctoral": {
+        "humanities_social_sciences": 22,
+        "engineering": 43,
+        "natural_sciences": 14,
+        "arts_physical_education": 0,
+        "medicine": 3,
+        "total": 82
+      },
+      "other_training": 13,
+      "total": 289
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "남수단",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 9,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 11
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 18
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "남아프리카공화국",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 20,
+        "engineering": 4,
+        "natural_sciences": 7,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 32
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 4,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 1,
+      "total": 51
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "니제르",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "라이베리아",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 8,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 9
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 1,
+      "total": 27
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "레소토",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 5
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 5
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "레위니옹",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "르완다",
+      "language_training": 29,
+      "undergraduate": {
+        "humanities_social_sciences": 17,
+        "engineering": 15,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 33
+      },
+      "masters": {
+        "humanities_social_sciences": 108,
+        "engineering": 14,
+        "natural_sciences": 9,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 131
+      },
+      "doctoral": {
+        "humanities_social_sciences": 10,
+        "engineering": 2,
+        "natural_sciences": 8,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 22
+      },
+      "other_training": 2,
+      "total": 217
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "리비아",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 1,
+      "total": 17
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "마다가스카르",
+      "language_training": 13,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 4
+      },
+      "masters": {
+        "humanities_social_sciences": 5,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 4,
+      "total": 32
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "말라위",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 29,
+        "engineering": 4,
+        "natural_sciences": 4,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 37
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 5
+      },
+      "other_training": 2,
+      "total": 47
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "말리",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 4,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 10
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "모로코",
+      "language_training": 49,
+      "undergraduate": {
+        "humanities_social_sciences": 66,
+        "engineering": 21,
+        "natural_sciences": 2,
+        "arts_physical_education": 5,
+        "medicine": 0,
+        "total": 94
+      },
+      "masters": {
+        "humanities_social_sciences": 27,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 32
+      },
+      "doctoral": {
+        "humanities_social_sciences": 5,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 12
+      },
+      "other_training": 72,
+      "total": 259
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "모리셔스",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "모리타니아",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "모잠비크",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 5,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 5
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 2
+      },
+      "other_training": 0,
+      "total": 18
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "베냉",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 1,
+      "total": 8
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "보츠와나",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 17
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "부룬디",
+      "language_training": 10,
+      "undergraduate": {
+        "humanities_social_sciences": 18,
+        "engineering": 9,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 27
+      },
+      "masters": {
+        "humanities_social_sciences": 190,
+        "engineering": 5,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 197
+      },
+      "doctoral": {
+        "humanities_social_sciences": 5,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "other_training": 2,
+      "total": 243
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "부르키나파소",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 2,
+      "total": 16
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "세네갈",
+      "language_training": 5,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 1,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 10
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 3,
+      "total": 22
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "소말리아",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 0,
+      "total": 12
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "수단",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 7,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "masters": {
+        "humanities_social_sciences": 5,
+        "engineering": 1,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 9
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 6,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "other_training": 1,
+      "total": 33
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "시에라리온",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 8,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 10
+      },
+      "doctoral": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 0,
+      "total": 13
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "알제리",
+      "language_training": 28,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 4,
+        "natural_sciences": 5,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 16
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 5,
+        "natural_sciences": 5,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 11
+      },
+      "other_training": 9,
+      "total": 71
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "앙골라",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 5,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 18
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "에리트레아",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 1,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "에스와티니",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "에티오피아",
+      "language_training": 23,
+      "undergraduate": {
+        "humanities_social_sciences": 24,
+        "engineering": 36,
+        "natural_sciences": 8,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 70
+      },
+      "masters": {
+        "humanities_social_sciences": 27,
+        "engineering": 23,
+        "natural_sciences": 7,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 58
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 78,
+        "natural_sciences": 18,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 102
+      },
+      "other_training": 4,
+      "total": 257
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "영국령 인도양 지역",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "우간다",
+      "language_training": 12,
+      "undergraduate": {
+        "humanities_social_sciences": 11,
+        "engineering": 14,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 27
+      },
+      "masters": {
+        "humanities_social_sciences": 27,
+        "engineering": 22,
+        "natural_sciences": 8,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 58
+      },
+      "doctoral": {
+        "humanities_social_sciences": 6,
+        "engineering": 9,
+        "natural_sciences": 8,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 25
+      },
+      "other_training": 2,
+      "total": 124
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "이집트",
+      "language_training": 46,
+      "undergraduate": {
+        "humanities_social_sciences": 20,
+        "engineering": 22,
+        "natural_sciences": 5,
+        "arts_physical_education": 6,
+        "medicine": 0,
+        "total": 53
+      },
+      "masters": {
+        "humanities_social_sciences": 28,
+        "engineering": 12,
+        "natural_sciences": 4,
+        "arts_physical_education": 2,
+        "medicine": 1,
+        "total": 47
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 26,
+        "natural_sciences": 6,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 38
+      },
+      "other_training": 15,
+      "total": 199
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "잠비아",
+      "language_training": 10,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 6,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 26
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "적도기니",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 5
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "중앙아프리카공화국",
+      "language_training": 3,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 11
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "짐바브웨",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 12,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 20
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "other_training": 2,
+      "total": 35
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "차드",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "카메룬",
+      "language_training": 16,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 4,
+        "natural_sciences": 2,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 10
+      },
+      "masters": {
+        "humanities_social_sciences": 23,
+        "engineering": 8,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 32
+      },
+      "doctoral": {
+        "humanities_social_sciences": 28,
+        "engineering": 3,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 33
+      },
+      "other_training": 5,
+      "total": 96
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "케냐",
+      "language_training": 17,
+      "undergraduate": {
+        "humanities_social_sciences": 37,
+        "engineering": 24,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 61
+      },
+      "masters": {
+        "humanities_social_sciences": 77,
+        "engineering": 24,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 105
+      },
+      "doctoral": {
+        "humanities_social_sciences": 11,
+        "engineering": 5,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 20
+      },
+      "other_training": 6,
+      "total": 209
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "코모로",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "코트디부아르",
+      "language_training": 5,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 5,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 3,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "other_training": 2,
+      "total": 22
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "콩고공화국",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 4,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 8
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 3,
+      "total": 17
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "콩고민주공화국",
+      "language_training": 28,
+      "undergraduate": {
+        "humanities_social_sciences": 13,
+        "engineering": 9,
+        "natural_sciences": 2,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 27
+      },
+      "masters": {
+        "humanities_social_sciences": 8,
+        "engineering": 6,
+        "natural_sciences": 4,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 18
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 0,
+      "total": 76
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "탄자니아",
+      "language_training": 22,
+      "undergraduate": {
+        "humanities_social_sciences": 13,
+        "engineering": 18,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 32
+      },
+      "masters": {
+        "humanities_social_sciences": 49,
+        "engineering": 26,
+        "natural_sciences": 12,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 88
+      },
+      "doctoral": {
+        "humanities_social_sciences": 10,
+        "engineering": 18,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 32
+      },
+      "other_training": 5,
+      "total": 179
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "토고",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 10
+    },
+    {
+      "year": 2025,
+      "continent": "아프리카",
+      "country_region": "튀니지",
+      "language_training": 15,
+      "undergraduate": {
+        "humanities_social_sciences": 7,
+        "engineering": 4,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 14
+      },
+      "masters": {
+        "humanities_social_sciences": 9,
+        "engineering": 7,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 18
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 2,
+        "natural_sciences": 4,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "other_training": 7,
+      "total": 62
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "괌",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "나우루",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "뉴질랜드",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 12,
+        "engineering": 6,
+        "natural_sciences": 4,
+        "arts_physical_education": 4,
+        "medicine": 1,
+        "total": 27
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 1,
+        "natural_sciences": 4,
+        "arts_physical_education": 1,
+        "medicine": 1,
+        "total": 18
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 1,
+        "total": 6
+      },
+      "other_training": 8,
+      "total": 68
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "마이크로네시아연방",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "미국령 사모아",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "사모아",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "솔로몬제도",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "오스트레일리아",
+      "language_training": 61,
+      "undergraduate": {
+        "humanities_social_sciences": 55,
+        "engineering": 9,
+        "natural_sciences": 9,
+        "arts_physical_education": 23,
+        "medicine": 1,
+        "total": 97
+      },
+      "masters": {
+        "humanities_social_sciences": 19,
+        "engineering": 3,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 1,
+        "total": 24
+      },
+      "doctoral": {
+        "humanities_social_sciences": 13,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 2,
+        "medicine": 1,
+        "total": 19
+      },
+      "other_training": 110,
+      "total": 311
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "키리바시",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "통가",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "파푸아뉴기니",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "오세아니아",
+      "country_region": "피지",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 1,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 1,
+      "total": 14
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "그리스",
+      "language_training": 12,
+      "undergraduate": {
+        "humanities_social_sciences": 8,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "masters": {
+        "humanities_social_sciences": 4,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 5
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 13,
+      "total": 41
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "네덜란드",
+      "language_training": 33,
+      "undergraduate": {
+        "humanities_social_sciences": 26,
+        "engineering": 6,
+        "natural_sciences": 0,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 35
+      },
+      "masters": {
+        "humanities_social_sciences": 18,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 20
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 2,
+        "natural_sciences": 5,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "other_training": 230,
+      "total": 325
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "노르웨이",
+      "language_training": 19,
+      "undergraduate": {
+        "humanities_social_sciences": 34,
+        "engineering": 2,
+        "natural_sciences": 3,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 40
+      },
+      "masters": {
+        "humanities_social_sciences": 15,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 17
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 88,
+      "total": 165
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "덴마크",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 8
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 85,
+      "total": 107
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "독일",
+      "language_training": 145,
+      "undergraduate": {
+        "humanities_social_sciences": 95,
+        "engineering": 10,
+        "natural_sciences": 4,
+        "arts_physical_education": 5,
+        "medicine": 0,
+        "total": 114
+      },
+      "masters": {
+        "humanities_social_sciences": 64,
+        "engineering": 9,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 1,
+        "total": 76
+      },
+      "doctoral": {
+        "humanities_social_sciences": 10,
+        "engineering": 11,
+        "natural_sciences": 3,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 26
+      },
+      "other_training": 1009,
+      "total": 1370
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "라트비아",
+      "language_training": 7,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 5
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 27,
+      "total": 42
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "러시아",
+      "language_training": 1067,
+      "undergraduate": {
+        "humanities_social_sciences": 842,
+        "engineering": 195,
+        "natural_sciences": 74,
+        "arts_physical_education": 249,
+        "medicine": 0,
+        "total": 1360
+      },
+      "masters": {
+        "humanities_social_sciences": 194,
+        "engineering": 36,
+        "natural_sciences": 9,
+        "arts_physical_education": 15,
+        "medicine": 0,
+        "total": 254
+      },
+      "doctoral": {
+        "humanities_social_sciences": 20,
+        "engineering": 9,
+        "natural_sciences": 6,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 35
+      },
+      "other_training": 409,
+      "total": 3125
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "루마니아",
+      "language_training": 12,
+      "undergraduate": {
+        "humanities_social_sciences": 13,
+        "engineering": 3,
+        "natural_sciences": 2,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 19
+      },
+      "masters": {
+        "humanities_social_sciences": 10,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 11
+      },
+      "doctoral": {
+        "humanities_social_sciences": 6,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "other_training": 34,
+      "total": 85
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "룩셈부르크",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 6,
+      "total": 9
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "리투아니아",
+      "language_training": 11,
+      "undergraduate": {
+        "humanities_social_sciences": 6,
+        "engineering": 4,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 11
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 91,
+      "total": 122
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "리히텐슈타인",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "몬테네그로",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 2
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "몰도바",
+      "language_training": 5,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 2,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 4
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 4,
+      "total": 19
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "몰타",
+      "language_training": 0,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 0,
+      "total": 1
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "벨기에",
+      "language_training": 30,
+      "undergraduate": {
+        "humanities_social_sciences": 19,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 20
+      },
+      "masters": {
+        "humanities_social_sciences": 16,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 18
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 4
+      },
+      "other_training": 79,
+      "total": 151
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "벨라루스",
+      "language_training": 25,
+      "undergraduate": {
+        "humanities_social_sciences": 18,
+        "engineering": 6,
+        "natural_sciences": 3,
+        "arts_physical_education": 15,
+        "medicine": 0,
+        "total": 42
+      },
+      "masters": {
+        "humanities_social_sciences": 10,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 12
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 5,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "other_training": 10,
+      "total": 95
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "보스니아헤르체고비나",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 0,
+      "total": 3
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "북마케도니아",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 4
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "불가리아",
+      "language_training": 18,
+      "undergraduate": {
+        "humanities_social_sciences": 16,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 19
+      },
+      "masters": {
+        "humanities_social_sciences": 8,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 10
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 21,
+      "total": 69
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "세르비아",
+      "language_training": 4,
+      "undergraduate": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 7,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 8
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 9,
+      "total": 25
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "스웨덴",
+      "language_training": 40,
+      "undergraduate": {
+        "humanities_social_sciences": 46,
+        "engineering": 4,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 51
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 114,
+      "total": 213
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "스위스",
+      "language_training": 39,
+      "undergraduate": {
+        "humanities_social_sciences": 11,
+        "engineering": 2,
+        "natural_sciences": 3,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 16
+      },
+      "masters": {
+        "humanities_social_sciences": 13,
+        "engineering": 2,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 1,
+        "total": 17
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 114,
+      "total": 186
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "스페인",
+      "language_training": 78,
+      "undergraduate": {
+        "humanities_social_sciences": 23,
+        "engineering": 6,
+        "natural_sciences": 0,
+        "arts_physical_education": 6,
+        "medicine": 0,
+        "total": 35
+      },
+      "masters": {
+        "humanities_social_sciences": 18,
+        "engineering": 4,
+        "natural_sciences": 3,
+        "arts_physical_education": 3,
+        "medicine": 0,
+        "total": 28
+      },
+      "doctoral": {
+        "humanities_social_sciences": 5,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "other_training": 309,
+      "total": 459
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "슬로바키아",
+      "language_training": 10,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 29,
+      "total": 50
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "슬로베니아",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 2
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 6,
+      "total": 13
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "아이슬란드",
+      "language_training": 2,
+      "undergraduate": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "masters": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 3,
+      "total": 9
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "아일랜드",
+      "language_training": 9,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 47,
+      "total": 62
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "알바니아",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "masters": {
+        "humanities_social_sciences": 3,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 1,
+      "total": 9
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "에스토니아",
+      "language_training": 7,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "masters": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 3
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "other_training": 15,
+      "total": 31
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "영국",
+      "language_training": 91,
+      "undergraduate": {
+        "humanities_social_sciences": 39,
+        "engineering": 4,
+        "natural_sciences": 8,
+        "arts_physical_education": 6,
+        "medicine": 0,
+        "total": 57
+      },
+      "masters": {
+        "humanities_social_sciences": 22,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 28
+      },
+      "doctoral": {
+        "humanities_social_sciences": 4,
+        "engineering": 5,
+        "natural_sciences": 4,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 14
+      },
+      "other_training": 331,
+      "total": 521
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "오스트리아",
+      "language_training": 13,
+      "undergraduate": {
+        "humanities_social_sciences": 9,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 6,
+        "medicine": 0,
+        "total": 16
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 9
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 59,
+      "total": 98
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "우크라이나",
+      "language_training": 139,
+      "undergraduate": {
+        "humanities_social_sciences": 70,
+        "engineering": 14,
+        "natural_sciences": 6,
+        "arts_physical_education": 20,
+        "medicine": 0,
+        "total": 110
+      },
+      "masters": {
+        "humanities_social_sciences": 11,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 14
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 1,
+        "natural_sciences": 6,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 9
+      },
+      "other_training": 61,
+      "total": 333
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "이탈리아",
+      "language_training": 191,
+      "undergraduate": {
+        "humanities_social_sciences": 72,
+        "engineering": 7,
+        "natural_sciences": 2,
+        "arts_physical_education": 8,
+        "medicine": 0,
+        "total": 89
+      },
+      "masters": {
+        "humanities_social_sciences": 60,
+        "engineering": 7,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 1,
+        "total": 70
+      },
+      "doctoral": {
+        "humanities_social_sciences": 6,
+        "engineering": 4,
+        "natural_sciences": 2,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 13
+      },
+      "other_training": 238,
+      "total": 601
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "조지아",
+      "language_training": 11,
+      "undergraduate": {
+        "humanities_social_sciences": 3,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 10,
+        "engineering": 1,
+        "natural_sciences": 3,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 15
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 9,
+      "total": 44
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "체코",
+      "language_training": 11,
+      "undergraduate": {
+        "humanities_social_sciences": 6,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 8
+      },
+      "masters": {
+        "humanities_social_sciences": 6,
+        "engineering": 4,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 10
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 2,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 3
+      },
+      "other_training": 86,
+      "total": 118
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "크로아티아",
+      "language_training": 1,
+      "undergraduate": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 0
+      },
+      "masters": {
+        "humanities_social_sciences": 4,
+        "engineering": 1,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 10,
+      "total": 18
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "포르투갈",
+      "language_training": 12,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 4,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 4
+      },
+      "doctoral": {
+        "humanities_social_sciences": 0,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 2,
+        "total": 2
+      },
+      "other_training": 37,
+      "total": 62
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "폴란드",
+      "language_training": 36,
+      "undergraduate": {
+        "humanities_social_sciences": 25,
+        "engineering": 6,
+        "natural_sciences": 3,
+        "arts_physical_education": 2,
+        "medicine": 0,
+        "total": 36
+      },
+      "masters": {
+        "humanities_social_sciences": 18,
+        "engineering": 31,
+        "natural_sciences": 1,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 51
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 3,
+        "natural_sciences": 1,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 6
+      },
+      "other_training": 135,
+      "total": 264
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "프랑스",
+      "language_training": 428,
+      "undergraduate": {
+        "humanities_social_sciences": 124,
+        "engineering": 7,
+        "natural_sciences": 1,
+        "arts_physical_education": 18,
+        "medicine": 0,
+        "total": 150
+      },
+      "masters": {
+        "humanities_social_sciences": 212,
+        "engineering": 3,
+        "natural_sciences": 4,
+        "arts_physical_education": 4,
+        "medicine": 0,
+        "total": 223
+      },
+      "doctoral": {
+        "humanities_social_sciences": 7,
+        "engineering": 15,
+        "natural_sciences": 5,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 27
+      },
+      "other_training": 1607,
+      "total": 2435
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "핀란드",
+      "language_training": 18,
+      "undergraduate": {
+        "humanities_social_sciences": 21,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 1,
+        "medicine": 0,
+        "total": 22
+      },
+      "masters": {
+        "humanities_social_sciences": 5,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 5
+      },
+      "doctoral": {
+        "humanities_social_sciences": 1,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 1
+      },
+      "other_training": 165,
+      "total": 211
+    },
+    {
+      "year": 2025,
+      "continent": "유럽",
+      "country_region": "헝가리",
+      "language_training": 19,
+      "undergraduate": {
+        "humanities_social_sciences": 5,
+        "engineering": 0,
+        "natural_sciences": 2,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 7
+      },
+      "masters": {
+        "humanities_social_sciences": 17,
+        "engineering": 1,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 18
+      },
+      "doctoral": {
+        "humanities_social_sciences": 2,
+        "engineering": 0,
+        "natural_sciences": 0,
+        "arts_physical_education": 0,
+        "medicine": 0,
+        "total": 2
+      },
+      "other_training": 41,
+      "total": 87
+    }
+  ]
+}

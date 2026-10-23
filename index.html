@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Interactive cartography and longitudinal visualization of foreign higher-education students in South Korea across 17 provinces from 1999 to 2026, alongside 2024 global origin countries and visa distributions.">
+    content="Interactive cartography and longitudinal visualization of foreign higher-education students in South Korea across 17 provinces from 1999 to 2026, alongside 2025 global origin countries and visa distributions.">
   <meta name="theme-color" content="#f8f6f0">
   <title>Foreign Students in Korea (1999–2026) — Interactive Map</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -122,7 +122,7 @@
           </div>
           <h1 id="mainTitle">Foreign Students in Korea</h1>
           <p class="subtitle" id="mainSubtitle">
-            Continuous accumulation across 17 Korean provinces (1999–2026) and global countries of origin (2024 visa
+            Continuous accumulation across 17 Korean provinces (1999–2026) and global countries of origin (2025
             statistics).
           </p>
         </div>
@@ -181,7 +181,7 @@
           </button>
           <button class="view-mode-btn" id="btnModeWorld" role="tab" aria-selected="false" data-mode="world">
             <span class="mode-icon">🌍</span>
-            <span class="mode-title" id="modeWorldTitle">Country of Origin (2024 Visa Data)</span>
+            <span class="mode-title" id="modeWorldTitle">Country of Origin (2025 Data)</span>
           </button>
           <button class="view-mode-btn" id="btnModeLanguage" role="tab" aria-selected="false" data-mode="language">
             <span class="mode-icon">🗣️</span>
@@ -259,7 +259,7 @@
           <div class="controls-card-header">
             <div class="controls-card-header-left">
               <span class="controls-title" id="labelWorldPanel">Origin Countries</span>
-              <span class="year-badge" id="worldCountBadge">182</span>
+              <span class="year-badge" id="worldCountBadge">189</span>
             </div>
             <button class="panel-collapse-btn" id="btnHideWorldPanel" type="button" title="Hide menu"
               aria-label="Hide menu" style="display: none;">
@@ -291,7 +291,7 @@
               <div class="visa-guide-item" id="guideItemD2" data-visa="d2">
                 <div class="visa-tag-badge d2-badge">D-2</div>
                 <div class="visa-guide-body">
-                  <div class="visa-guide-name" id="d2GuideName">Degree Programs (67.0%)</div>
+                  <div class="visa-guide-name" id="d2GuideName">Degree Programs (70.7%)</div>
                   <div class="visa-guide-desc" id="d2GuideDesc">Bachelor's, Master's, Doctoral & exchange programs at
                     universities.</div>
                 </div>
@@ -299,7 +299,7 @@
               <div class="visa-guide-item" id="guideItemD4" data-visa="d4">
                 <div class="visa-tag-badge d4-badge">D-4</div>
                 <div class="visa-guide-body">
-                  <div class="visa-guide-name" id="d4GuideName">Language & Training (33.0%)</div>
+                  <div class="visa-guide-name" id="d4GuideName">Language & Training (29.3%)</div>
                   <div class="visa-guide-desc" id="d4GuideDesc">Non-degree Korean language institutes (어학당) & general
                     training.</div>
                 </div>
@@ -311,13 +311,13 @@
           <div class="control-row-stacked">
             <span class="control-label" id="labelContinentFilter">Filter by Continent</span>
             <select id="continentSelect" class="scale-select-full">
-              <option value="all" id="optContAll">All Continents (182)</option>
-              <option value="Asia" id="optContAsia">Asia (44)</option>
-              <option value="Europe" id="optContEurope">Europe (45)</option>
-              <option value="North America" id="optContNA">North America (2)</option>
-              <option value="South America" id="optContSA">South America (31)</option>
-              <option value="Africa" id="optContAfrica">Africa (52)</option>
-              <option value="Oceania" id="optContOceania">Oceania (8)</option>
+              <option value="all" id="optContAll">All Continents (189)</option>
+              <option value="Asia" id="optContAsia">Asia (49)</option>
+              <option value="Europe" id="optContEurope">Europe (41)</option>
+              <option value="North America" id="optContNA">North America (4)</option>
+              <option value="South America" id="optContSA">South America (32)</option>
+              <option value="Africa" id="optContAfrica">Africa (51)</option>
+              <option value="Oceania" id="optContOceania">Oceania (12)</option>
             </select>
           </div>
 
@@ -435,9 +435,9 @@
   <div class="tooltip" id="tooltip"></div>
 
   <!-- Data & Modular Logic with Cache Busting (Deferred Non-blocking Execution) -->
-  <script defer src="world_countries.js?v=20261015-alaskaslide1"></script>
-  <script defer src="data.js?v=20261014-stroke1"></script>
-  <script defer src="app.js?v=20261015-unifiedkorealegend4"></script>
+  <script defer src="world_countries.js?v=20261016-data2025v1"></script>
+  <script defer src="data.js?v=20261016-data2025v1"></script>
+  <script defer src="app.js?v=20261016-data2025v1"></script>
 </body>
 
 </html>

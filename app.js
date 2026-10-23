@@ -1,4 +1,4 @@
-// Foreign Students in Korea (1999–2026) & Global Origin Countries (2024 Visa Data)
+// Foreign Students in Korea (1999–2026) & Global Origin Countries (2025 Visa Data)
 // OpenStreetMap Leaflet + D3.js Dual-Mode Visualization
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
       kickerText: "INTERNATIONAL STUDENTS IN KOREA CARTOGRAPHY · 1999–2026 ARCHIVE",
       pageTitle: "Foreign Students in Korea (1999–2026) — Interactive Map",
       mainTitle: "Foreign Students in Korea",
-      mainSubtitle: "Continuous accumulation across 17 Korean provinces (1999–2026) and global countries of origin (2024 visa statistics).",
+      mainSubtitle: "Continuous accumulation across 17 Korean provinces (1999–2026) and global countries of origin (2025 statistics).",
       modeKorea: "Domestic Distribution (1999–2026)",
-      modeWorld: "Country of Origin (2024 Visa Data)",
+      modeWorld: "Country of Origin (2025 Data)",
 
       // Korea Mode Stats
       statIdx1Korea: "01 / TOTAL",
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       statIdx2World: "02 / ORIGIN COUNTRIES",
       statIdx3World: "03 / PRIMARY ORIGIN",
       statIdx4World: "04 / VISA PROPORTION",
-      card1WorldLabel: "Total International Students (2024)",
+      card1WorldLabel: "Total International Students (2025)",
       card1WorldSub: "Nationwide degree & training enrollment",
       card2WorldLabel: "Countries of Origin",
       card2WorldSub: "Across 6 global continents",
@@ -63,12 +63,12 @@ document.addEventListener("DOMContentLoaded", () => {
       visaD2: "D-2 Degree",
       visaD4: "D-4 Language",
       visaGuideToggle: "Visa Guide",
-      d2GuideName: "Degree Programs (67.0%)",
+      d2GuideName: "Degree Programs (70.7%)",
       d2GuideDesc: "Bachelor's, Master's, Doctoral & exchange programs at universities.",
-      d4GuideName: "Language & Training (33.0%)",
+      d4GuideName: "Language & Training (29.3%)",
       d4GuideDesc: "Non-degree Korean language institutes (어학당) & general training.",
       continentFilter: "Filter by Continent",
-      contAll: "All Continents (182)",
+      contAll: "All Continents (189)",
       contAsia: "Asia",
       contEurope: "Europe",
       contNA: "North America",
@@ -127,9 +127,9 @@ document.addEventListener("DOMContentLoaded", () => {
       kickerText: "대한민국 외국인 유학생 통계지도 · 1999–2026 아카이브",
       pageTitle: "국내 외국인 유학생 현황 (1999–2026) 및 출신국 통계 — 인터랙티브 지도",
       mainTitle: "국내 외국인 유학생 현황",
-      mainSubtitle: "1999년부터 2026년까지 대한민국 전국 17개 시·도별 유학생 누적 추이 및 2024년 유학 비자 출신국 현황",
+      mainSubtitle: "1999년부터 2026년까지 대한민국 전국 17개 시·도별 유학생 누적 추이 및 2025년 유학 비자 출신국 현황",
       modeKorea: "전국 시·도별 분포 (1999–2026)",
-      modeWorld: "출신 국가별 현황 (2024 비자 통계)",
+      modeWorld: "출신 국가별 현황 (2025 통계)",
 
       // Korea Mode Stats
       statIdx1Korea: "01 / 전국 총계",
@@ -150,10 +150,10 @@ document.addEventListener("DOMContentLoaded", () => {
       statIdx2World: "02 / 출신 국가군",
       statIdx3World: "03 / 최다 출신국",
       statIdx4World: "04 / 비자 유형 비율",
-      card1WorldLabel: "2024년 총 유학생 비자 발급",
+      card1WorldLabel: "2025년 총 체류 유학생",
       card1WorldSub: "학위 과정(D-2) 및 어학연수(D-4) 합계",
       card2WorldLabel: "출신 국가 수",
-      card2WorldSub: "전 세계 6개 대륙 182개국",
+      card2WorldSub: "전 세계 6개 대륙 189개국",
       card3WorldLabel: "최다 출신국",
       card3WorldSub: (country, pct) => `${country} (전체 ${pct}%)`,
       card4WorldLabel: "비자 유형 비율",
@@ -179,12 +179,12 @@ document.addEventListener("DOMContentLoaded", () => {
       visaD2: "D-2 학위",
       visaD4: "D-4 어학연수",
       visaGuideToggle: "비자 안내",
-      d2GuideName: "정규 학위과정 (67.0%)",
+      d2GuideName: "정규 학위과정 (70.7%)",
       d2GuideDesc: "전문학사·학사·석사·박사 및 교환학생 등 대학 정규 학위과정",
-      d4GuideName: "일반·어학연수 (33.0%)",
+      d4GuideName: "일반·어학연수 (29.3%)",
       d4GuideDesc: "대학 부설 한국어학당 어학연수 및 직업훈련 등 비학위 연수과정",
       continentFilter: "대륙별 필터",
-      contAll: "전체 대륙 (182개국)",
+      contAll: "전체 대륙 (189개국)",
       contAsia: "아시아주",
       contEurope: "유럽주",
       contNA: "북아메리카주",
@@ -2608,12 +2608,12 @@ document.addEventListener("DOMContentLoaded", () => {
       d3.select("#labelContinentFilter").text(t.continentFilter);
 
       d3.select("#optContAll").text(t.contAll);
-      d3.select("#optContAsia").text(`${t.contAsia} (44)`);
-      d3.select("#optContEurope").text(`${t.contEurope} (45)`);
-      d3.select("#optContNA").text(`${t.contNA} (2)`);
-      d3.select("#optContSA").text(`${t.contSA} (31)`);
-      d3.select("#optContAfrica").text(`${t.contAfrica} (52)`);
-      d3.select("#optContOceania").text(`${t.contOceania} (8)`);
+      d3.select("#optContAsia").text(`${t.contAsia} (49)`);
+      d3.select("#optContEurope").text(`${t.contEurope} (41)`);
+      d3.select("#optContNA").text(`${t.contNA} (4)`);
+      d3.select("#optContSA").text(`${t.contSA} (32)`);
+      d3.select("#optContAfrica").text(`${t.contAfrica} (51)`);
+      d3.select("#optContOceania").text(`${t.contOceania} (12)`);
 
       d3.select("#labelTopOrigins").text(t.topOriginsTitle);
       d3.select("#labelCountryFinder").text(t.countryFinder);
